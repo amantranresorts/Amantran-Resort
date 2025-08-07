@@ -24,7 +24,7 @@ const Discover = () => {
                 delta as you relax in our well-appointed rooms, each designed to
                 provide a serene retreat after a day of exploration. With
                 top-notch amenities and warm hospitality, your stay promises to
-                be both adventurous and restful.
+                be both adventurous and restful. Explore our <a href="https://www.amantranresorts.in/properties/tarapith">best resort in Tarapith</a> as well.
               </p>
               <ul className="grid grid-cols-2 gap-2 font-serif text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
