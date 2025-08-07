@@ -125,7 +125,7 @@ const Practice = () => {
         </span>
         <div className="flex flex-row justify-between items-center">
           <h1 className="text-4xl font-gilda">
-            Take a Look at the Surroundings - The Best Resort in Sundarban
+            The Best Resort in Sundarban - Take a Look at the Surroundings
           </h1>
         </div>
         <span className="block text-sm font-serif mb-2">
