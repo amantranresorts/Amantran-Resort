@@ -118,11 +118,11 @@ const Practice = () => {
                 </span>
                 <div className="flex flex-row justify-between items-center">
                     <h1 className="text-4xl font-gilda">
-                        Take a Look at the Surroundings
+                        The Best Hotel in Chilapata – Explore the Scenic Surroundings
                     </h1>
                 </div>
                 <span className="block text-sm font-serif mb-2">
-                Take a quick virtual stroll through the enchanting world of Hotel Amantran Chilapata. Amidst the lush greenery of the Chilapata forest, discover a property that blends rustic charm with elegant interiors, where every corner tells a story of serene beauty and comfort. The soothing ambiance and natural grace will surely tempt you to plan your escape to this hidden gem in Chilapata soon.
+                Take a quick virtual stroll through the enchanting world of Hotel Amantran Chilapata. The best hotel in Chilapata, Amidst the lush greenery of the Chilapata forest, discover a property that blends rustic charm with elegant interiors, where every corner tells a story of serene beauty and comfort. The soothing ambiance and natural grace will surely tempt you to plan your escape to this hidden gem in Chilapata soon.
                 </span>
             </div>
             {/* Responsive Grid Layout for All Devices */}
