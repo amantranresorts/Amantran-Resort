@@ -26,7 +26,7 @@ const page = () => {
 export default page
 
 export const metadata = {
-  title: "Amantran Resort, Sundarban | Riverside Luxury Amidst the Mangroves",
-  description: "Explore the wild beauty of Sundarban from Amantran Resort. Enjoy riverside stays, boat safaris, and eco-luxury amidst the world’s largest mangrove forest.",
+  title: "Best Resort In Sundarban | Best Hotel in Sundarban",
+  description: "Enjoy serene views and comfort at the best resort in Sundarban. Your perfect getaway starts at the best hotel in Sundarban. Book now!",
 };
 
