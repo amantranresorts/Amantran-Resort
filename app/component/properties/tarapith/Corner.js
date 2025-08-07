@@ -129,11 +129,10 @@ const Practice = () => {
           </h1>
         </div>
         <span className="block text-sm font-serif mb-2">
-          Embark on a virtual journey through the tranquil realm of Hotel Amantran
-           Tarapith. Nestled amidst the spiritual aura of
+          Embark on a virtual journey through the tranquil realm of the best hotel in            Tarapith. Nestled amidst the spiritual aura of
           Tarapith, this resort seamlessly blends traditional charm with modern
           elegance. Guests can enjoy a peaceful retreat away from the bustling
-          crowds, yet remain close to the sacred sites. The resort's serene
+          crowds, yet remain close to the sacred sites. This is the best resort in Tarapith with serene
           environment, combined with its warm hospitality, offers a rejuvenating
           experience for pilgrims and travelers alike. Let the harmonious
           ambience and spiritual essence of Hotel Amantran Tarapith
