@@ -29,7 +29,7 @@ const page = () => {
 export default page
 
 export const metadata = {
-  title: "Amantran Resort, Chilapata | A Jungle Stay Near Jaldapara",
-  description: "Unwind at Amantran Resort, Chilapata — nestled in the heart of the Chilapata Forest. Ideal for jungle safaris, birdwatching, and forest getaways.",
+  title: "Best Resort In Chilapata | Best Hotel In Chilapata",
+  description: "Looking for the best resort in Chilapata? Stay at the top-rated hotel in Chilapata and enjoy nature, luxury, and local charm.",
 };
 
