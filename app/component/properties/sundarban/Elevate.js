@@ -91,9 +91,9 @@ const Elevate = () => {
       {/* Section Header */}
       <div className="text-left mb-10">
         <h3 className="text-base text-[#d49c45] uppercase font-semibold">Reconnect With Nature’s Untamed Grace</h3>
-        <h2 className="text-3xl md:text-4xl font-gilda mt-2">Every Room Whispers Wilderness</h2>
+        <h2 className="text-3xl md:text-4xl font-gilda mt-2">The Best Hotel in Sundarban – Every Room Echoes the Wild</h2>
         <p className="text-black font-serif mt-4 md:pr-20">
-        Discover a sanctuary of calm at Amantran Resort, Sundarban, where refined comfort meets the mystical charm of Bengal’s mangrove heartland.  
+        Discover a sanctuary of calm at Amantran Resort, the best hotel in Sundarban, where refined comfort meets the mystical charm of Bengal’s mangrove heartland.  
   Our thoughtfully designed rooms offer an immersive blend of rustic elegance and eco-conscious luxury, surrounded by the calls of the wild and the rhythm of nature.
   Let the untamed beauty of Sundarban awaken your senses in a retreat crafted for both adventure and introspection.
         </p>
