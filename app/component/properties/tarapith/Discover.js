@@ -25,7 +25,7 @@ const Discover = () => {
                 the luxurious accommodations and amenities that this renowned
                 hotel chain offers. Here, every moment blends spiritual
                 introspection with opulent relaxation, crafting an enchanting
-                journey beyond the ordinary.
+                journey beyond the ordinary. Also check our <a href="https://www.amantranresorts.in/properties/rocky-island" className="font-bold">Best Resort in Rocky Island</a>
               </p>
               <ul className="grid grid-cols-2 gap-2 font-serif text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
