@@ -35,7 +35,7 @@ const Treat = () => {
           exclusive benefits such as the lowest guaranteed rates, special
           packages, and a seamless reservation experience without any hidden
           charges. Our secure payment gateway ensures that your transactions are
-          safe and hassle-free.
+          safe and hassle-free. You can book our <a href="https://www.amantranresorts.in/properties/rocky-island" className="font-bold">best Hotel in Rocky Island</a>
         </p>
         <p className="text-sm md:text-base text-black mb-3 md:mb-4">
           Discover the perfect getaway at Amantran Resort, where luxury meets
