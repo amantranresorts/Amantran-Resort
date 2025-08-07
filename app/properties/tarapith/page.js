@@ -28,6 +28,6 @@ const page = () => {
 export default page
 
 export const metadata = {
-  title: "Amantran Hotel & Resort, Tarapith | Peaceful Stay Near the Sacred Temple",
+  title: "Best Resort In Tarapith | Best Hotel in Tarapith",
   description: "Stay close to spirituality at Amantran Resort, Tarapith — located near the iconic Tarapith Temple. Experience soulful hospitality, comfort, and divine tranquility.",
 };
