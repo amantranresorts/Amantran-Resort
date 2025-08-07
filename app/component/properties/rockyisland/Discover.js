@@ -14,12 +14,12 @@ const Discover = () => {
                   Embrace Nature's Tranquility
                 </h3>
                 <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
-                  at Best Resort in Rocky Island
+                  The Best Resort in Rocky Island
                 </h2>
               </div>
               <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
                 Nestled amidst the serene landscapes of Samsing, Amantran Hotel
-                & Resort – the best resort in Rocky Island offers a tranquil retreat where nature's
+                & Resort – the <a> best resort in Rocky Island </a>  offers a tranquil retreat where nature's
                 beauty meets comfort. Overlooking the gentle flow of the Murti
                 River and surrounded by lush greenery, our resort provides an
                 idyllic setting for relaxation and rejuvenation. Guests can
@@ -27,7 +27,7 @@ const Discover = () => {
                 seamlessly with the natural surroundings while offering modern
                 amenities. Whether you're seeking a peaceful getaway or an
                 adventurous exploration of the Dooars region, Amantran Rocky
-                Island serves as the perfect base.
+                Island serves as the perfect base. You can also visit our <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best hotel in Sundarban</a>
               </p>
               <ul className="grid grid-cols-2 gap-2 font-serif text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
