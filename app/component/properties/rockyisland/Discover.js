@@ -14,12 +14,12 @@ const Discover = () => {
                   Embrace Nature's Tranquility
                 </h3>
                 <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
-                  at Amantran Resort Rocky Island
+                  at Best Resort in Rocky Island
                 </h2>
               </div>
               <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
                 Nestled amidst the serene landscapes of Samsing, Amantran Hotel
-                & Resort – Rocky Island offers a tranquil retreat where nature's
+                & Resort – the best resort in Rocky Island offers a tranquil retreat where nature's
                 beauty meets comfort. Overlooking the gentle flow of the Murti
                 River and surrounded by lush greenery, our resort provides an
                 idyllic setting for relaxation and rejuvenation. Guests can
