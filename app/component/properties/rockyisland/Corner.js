@@ -121,17 +121,17 @@ const Practice = () => {
         </span>
         <div className="flex flex-row justify-between items-center">
           <h1 className="text-4xl font-gilda">
-            Take a Look at the Surroundings
+            Explore the Scenic Surroundings
           </h1>
         </div>
         <span className="block text-sm font-serif mb-2">
-          Embark on a virtual journey through Amantran Hotel & Resort – Rocky
+          Embark on a virtual journey through Amantran Hotel & Resort – best resort in Rocky
           Island, nestled in the serene landscapes of Samsing. Situated beside
           the gentle flow of the Murti River, our eco-lodge offers a harmonious
           blend of rustic charm and modern comfort. Each of our 12 thoughtfully
           designed cottages provides a tranquil retreat, allowing guests to
           immerse themselves in the natural beauty of the Dooars region. Whether
-          you're seeking adventure or relaxation, Amantran Rocky Island promises
+          you're seeking adventure or relaxation, Amantran, is the best hotel in Rocky Island promises
           an unforgettable experience amidst nature's embrace.
         </span>
       </div>
