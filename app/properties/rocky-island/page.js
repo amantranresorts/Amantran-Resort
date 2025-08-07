@@ -25,6 +25,6 @@ const page = () => {
 
 export default page
 export const metadata = {
-  title: "Amantran Resort, Rocky Island | Nature Retreat in Samsing’s Scenic Wilderness",
-  description: "Escape to the serene Rocky Island with Amantran Resorts. Surrounded by hills, forests, and rivers, it’s a paradise for nature lovers and adventure seekers.",
+  title: "Best Resort In Rocky Island | Best Hotel in Rocky Island",
+  description: "Experience nature at its best! Book the Best Resort in Rocky Island for a serene getaway. Your ideal stay at the Best Hotel in Rocky Island awaits.",
 };
