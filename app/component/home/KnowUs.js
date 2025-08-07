@@ -40,7 +40,7 @@ const KnowUs = () => {
               Know Our Story
               </h1>
               <p className="text-sm sm:text-base md:text-lg text-black font-serif mb-6">
-                Amantran Resort, exemplifies the pinnacle of hospitality, offering guests a harmonious blend of comfort and cultural richness. With over 46 years of experience in the hospitality industry, Amantran has been dedicated to providing unforgettable stays, ensuring every guest feels valued and cared for.
+                Amantran Resort, exemplifies the pinnacle of hospitality, offering guests a harmonious blend of comfort and cultural richness. With over 46 years of experience in the hospitality industry, Amantran has been dedicated to providing unforgettable stays, ensuring every guest feels valued and cared for. Also visit our <a href="https://www.amantranresorts.in/properties/chilapata" className="font-bold">Best Hotel in Chilapata</a>
               </p>
               <p className="text-sm sm:text-base md:text-lg text-black font-serif mb-6">
                 Our team at Amantran Resort goes above and beyond to showcase the true essence of “Bengal Hospitality.” From the moment you arrive, you'll be greeted with warmth and elegance, setting the tone for a memorable stay filled with personalized services and attention to detail.
