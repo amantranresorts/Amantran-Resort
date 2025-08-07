@@ -91,9 +91,9 @@ const Elevate = () => {
       {/* Section Header */}
       <div className="text-left mb-10">
         <h3 className="text-base text-[#d49c45] uppercase font-semibold">Elevate Your Stay With Unmatched Hospitality</h3>
-        <h2 className="text-3xl md:text-4xl font-gilda mt-2">Every Room Ensures Comfort</h2>
+        <h2 className="text-3xl md:text-4xl font-gilda mt-2">The Best Resort In Chilapata - Every Room Ensures Comfort</h2>
         <p className="text-black font-serif mt-2 md:pr-20">
-        Discover untamed serenity at Hotel Amantran Chilapata, where refined comfort meets the wild mystique of the forest. Nestled near the heart of nature, our elegant stay harmonizes modern indulgence with the raw charm of the Chilapata wilderness, offering an unforgettable escape for nature lovers and soulful wanderers alike.
+        Discover untamed serenity at Hotel Amantran, the best hotel in Chilapata, where refined comfort meets the wild mystique of the forest. Nestled near the heart of nature, our elegant stay harmonizes modern indulgence with the raw charm of the Chilapata wilderness, offering an unforgettable escape for nature lovers and soulful wanderers alike.
         </p>
       </div>
 
