@@ -91,9 +91,9 @@ const Elevate = () => {
       {/* Section Header */}
       <div className="text-left mb-10">
         <h3 className="text-base text-[#d49c45] uppercase font-semibold">Elevate Your Stay With Unmatched Hospitality</h3>
-        <h2 className="text-3xl md:text-4xl font-gilda mt-2">Every Room Ensures Comfort</h2>
+        <h2 className="text-3xl md:text-4xl font-gilda mt-2">Best Hotel in Tarapith - Every Room Ensures Comfort</h2>
         <p className="text-black font-serif mt-4 md:pr-20">
-          Unveil divine spirituality at Hotel Amantran, Tarapith, as opulent luxuries seamlessly blend with the comforting embrace of sacred surroundings.
+          Unveil divine spirituality at the best hotel in Tarapith, as opulent luxuries seamlessly blend with the comforting embrace of sacred surroundings.
           Lavish chambers, adorned with the picturesque tapestry and spiritual magnificence of Tarapith, create an idyllic retreat, inviting you to embrace a serene pilgrimage escape.
         </p>
       </div>
