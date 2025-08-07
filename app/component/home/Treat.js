@@ -38,7 +38,7 @@ const Treat = () => {
           safe and hassle-free. You can book our <a href="https://www.amantranresorts.in/properties/rocky-island" className="font-bold">best Hotel in Rocky Island</a>
         </p>
         <p className="text-sm md:text-base text-black mb-3 md:mb-4">
-          Discover the perfect getaway at Amantran Resort, where luxury meets
+          Discover the perfect getaway at Amantran Resort, <a href="https://www.amantranresorts.in/properties/tarapith" className="font-bold">Best Resorts in Tarapith</a>where luxury meets
           tradition, and every stay is curated to provide an unforgettable
           experience. Whether you're seeking a peaceful retreat or an
           adventurous escape, Amantran Resort is your ideal destination.
