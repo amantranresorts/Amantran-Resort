@@ -14,7 +14,7 @@ const Discover = () => {
                   Discover the Wild Serenity of the Sundarbans
                 </h3>
                 <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
-                  at The Best Resort in Sundarbans
+                  The Best Resort in Sundarbans
                 </h2>
               </div>
               <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
