@@ -125,17 +125,17 @@ const Practice = () => {
         </span>
         <div className="flex flex-row justify-between items-center">
           <h1 className="text-4xl font-gilda">
-            Take a Look at the Surroundings
+            Take a Look at the Surroundings - The Best Resort in Sundarban
           </h1>
         </div>
         <span className="block text-sm font-serif mb-2">
           Embark on a virtual escape into the untouched beauty of Amantran
-          Resorts, best resort in sundarban. Tucked away in the heart of Bengal’s lush mangrove
+          Resorts, best resort in Sundarban. Tucked away in the heart of Bengal’s lush mangrove
           delta, this resort offers a perfect blend of rustic elegance and
           modern comfort. Guests are invited to experience the wild serenity of
           the sundarban while enjoying warm hospitality, eco-conscious living,
           and immersive tranquility. Whether you're a nature lover, a peace
-          seeker, or an adventurer at heart, Amantran Resorts, the best hotel in sundarban
+          seeker, or an adventurer at heart, Amantran Resorts, the best hotel in Sundarban
           promises a stay filled with unforgettable moments, soothing
           landscapes, and the rhythm of the wild.
         </span>
