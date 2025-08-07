@@ -14,12 +14,12 @@ const Discover = () => {
                   Discover the Spiritual Essence &amp; Divinity
                 </h3>
                 <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
-                  at Amantran Resorts Tarapith
+                  Best Resorts in Tarapith
                 </h2>
               </div>
               <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
                 During your visit to this auspicious land of Tarapith, book your
-                staycation with Hotel Amantran Tarapith as it offers a haven
+                staycation with Hotel Amantran, best resort in Tarapith as it offers a haven
                 filled with comfort and peace. Visitors can also experience the
                 holy spirit of the temple, which is located nearby, and relish
                 the luxurious accommodations and amenities that this renowned
