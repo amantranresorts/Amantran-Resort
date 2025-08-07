@@ -29,5 +29,5 @@ export default page
 
 export const metadata = {
   title: "Best Resort In Tarapith | Best Hotel in Tarapith",
-  description: "Stay close to spirituality at Amantran Resort, Tarapith — located near the iconic Tarapith Temple. Experience soulful hospitality, comfort, and divine tranquility.",
+  description: "Experience serenity and luxury at the best resort in Tarapith. Stay at the best hotel in Tarapith for a divine and peaceful getaway.",
 };
