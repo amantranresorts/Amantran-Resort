@@ -121,7 +121,7 @@ const Practice = () => {
         </span>
         <div className="flex flex-row justify-between items-center">
           <h1 className="text-4xl font-gilda">
-            Explore the Scenic Surroundings
+            The Best Resort in Rocky Island Is Surrounded by Natural Beauty
           </h1>
         </div>
         <span className="block text-sm font-serif mb-2">

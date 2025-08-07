@@ -93,7 +93,7 @@ const Elevate = () => {
           Experience Nature's Embrace with Exceptional Comfort
         </h3>
         <h2 className="text-3xl md:text-4xl font-gilda mt-2">
-          Discover Serenity at the Best Hotel in Rocky Island
+          The Best Hotel in Rocky Island Offers a Journey into Serenity
         </h2>
         <p className="text-black font-serif mt-4 md:pr-20">
           Discover the tranquil beauty of Amantran Hotel & Resort – the best hotel in Rocky
