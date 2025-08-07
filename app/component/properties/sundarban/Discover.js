@@ -14,12 +14,12 @@ const Discover = () => {
                   Discover the Wild Serenity of the Sundarbans
                 </h3>
                 <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
-                  at Amantran Resort Sundarbans
+                  at The Best Resort in Sundarbans
                 </h2>
               </div>
               <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
                 Nestled in the heart of the world's largest mangrove forest,
-                Amantran Resort in the Sundarbans offers an unparalleled blend
+                Amantran Resort, the best resort in Sundarbans offers an unparalleled blend
                 of comfort and nature. Experience the tranquil beauty of the
                 delta as you relax in our well-appointed rooms, each designed to
                 provide a serene retreat after a day of exploration. With
