@@ -28,7 +28,7 @@ const Treat = () => {
           Guests can indulge in a variety of world-class amenities, including a
           serene swimming pool, gourmet dining options, and elegantly designed
           rooms equipped with modern facilities like air conditioning,
-          flat-screen TVs, and complimentary Wi-Fi.
+          flat-screen TVs, and complimentary Wi-Fi.Vist our <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best Hotel in Sundarban</a> for more information.
         </p>
         <p className="text-sm md:text-base text-black mb-3 md:mb-4">
           By booking directly through our official website, guests can enjoy
