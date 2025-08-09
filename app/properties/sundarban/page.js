@@ -10,49 +10,31 @@ import Hero from '@/app/component/properties/sundarban/Hero'
 import Offer from '@/app/component/properties/sundarban/Offer'
 
 const page = () => {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "Best Resort In Sundarban | Best Hotel In Sundarban",
-    "description": "Executive suites with panoramic Sundarban views, modern amenities, and serene surroundings.",
-    "url": "https://www.amantranresorts.in/properties/sundarban",
-    "image": [
-      "https://www.amantranresorts.in/properties/sundarban/image1.jpg",
-      "https://www.amantranresorts.in/properties/sundarban/image2.jpg"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Sonagaon, P.O. – Dulki, P.S. – Gosaba",
-      "addressLocality": "Sundarbans",
-      "addressRegion": "West Bengal",
-      "postalCode": "743370",
-      "addressCountry": "IN"
-    },
-    "telephone": "+91-91473-89029",
-    "checkinTime": "13:00",
-    "checkoutTime": "11:00",
-    "amenityFeature": [
-      { "@type": "LocationFeatureSpecification", "name": "Room Service", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Restaurant", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Air Conditioning", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Wi-Fi", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Garden", "value": true },
-      { "@type": "LocationFeatureSpecification", "name": "Free Parking", "value": true }
-    ],
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "3.0",
-      "ratingCount": 3
-    }
-  }
-
-  return (
-    <>
-      <Script
-        id="sundarban-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-      />
+  const <script type="application/ld+json">
+         {         
+            "@context": "https://schema.org/",         
+            "@type": "LocalBusiness",         
+            "@id": "#LocalBusiness",         
+            "url": "https://www.amantranresorts.in/properties/sundarban",          
+            "legalName": "Amantran Resorts",
+            "name": "Best Resort In Sundarban | Best Hotel In Sindarban",
+            "description": "Enjoy serene views and comfort at the best resort in Sundarban. Your perfect getaway starts at the best hotel in Sundarban. Book now!",
+            "image": "https://www.amantranresorts.in/_next/image?url=%2Fimages%2Fsundarban%2Fhome.jpg&w=2048&q=75",
+            "logo": "https://www.amantranresorts.in/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75",
+            "telephone": "+91 9147389026, +91 9147389029",
+            "faxNumber": "",
+            "email": "amantranmarketing2025@gmail.com,  info@amantranresorts.in",
+            "address": {             
+              "@type": "PostalAddress",             
+              "streetAddress": "Vill- Sonagaon, P.O - Dulki, ",             
+              "addressLocality": "P.S - Gosaba,",             
+              "addressRegion": "Sunderban",             
+              "addressCountry": "India",             
+              "postalCode": "743370"        
+             }
+          }
+          } 
+      </script>      />
       <Hero />
       <Discover />
       <Elevate />
