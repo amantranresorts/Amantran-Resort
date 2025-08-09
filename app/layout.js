@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Home - Amantran Resorts | Luxury Stays Across Bengal’s Most Iconic Destinations",
+  title: "Amantran Resorts | Luxury Hotel Across Bengal’s Most Iconic Destinations",
   description:
-    "Experience soulful getaways with Amantran Resorts — premium hotels and retreats in Tarapith, Sundarban, Mandarmani, Darjeeling & more. Blending luxury, tradition, and serenity for unforgettable stays.",
+    "Stay at Amantran Resorts, a luxury hotel brand offering unforgettable stays across Bengal’s most iconic and scenic destinations.",
   icons: {
     icon: "/images/logo.png",
   },
