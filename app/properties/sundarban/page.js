@@ -10,8 +10,7 @@ import Hero from '@/app/component/properties/sundarban/Hero'
 import Offer from '@/app/component/properties/sundarban/Offer'
 
 const page = () => {
-  const <script type="application/ld+json">
-         {         
+  const schema = {        
             "@context": "https://schema.org/",         
             "@type": "LocalBusiness",         
             "@id": "#LocalBusiness",         
@@ -33,8 +32,14 @@ const page = () => {
               "postalCode": "743370"        
              }
           }
-          } 
-      </script>      />
+         
+        return (
+    <>
+      <Script
+        id="sundarban-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
       <Hero />
       <Discover />
       <Elevate />
