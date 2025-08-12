@@ -6,7 +6,7 @@ import { FaPhone } from "react-icons/fa";
 const KnowUs = () => {
   // Local images used for the grid
   const images = [
-    "/images/tarapith/pond.jpg",
+    "/images/tarapith/26.jpg",
     "/images/chilapata/out8.jpg",
     "/images/5.jpg",
     "/images/bon.jpg",
@@ -25,7 +25,7 @@ const KnowUs = () => {
                   key={index}
                   src={src}
                   alt={`Gallery Image ${index + 1}`}
-                  className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-cover rounded"
+                  className="w-full h-40 sm:h-48 md:h-56 lg:h-64 object-fill rounded"
                 />
               ))}
             </div>
