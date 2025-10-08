@@ -38,17 +38,17 @@ const Hero = () => {
   return (
     <div className="w-full overflow-x-hidden">
       {/* Desktop & Laptop Version */}
-      <section className="bg-gray-100 py-15 hidden md:block">
-        <div className="container mx-auto flex flex-row mt-10 bg-[#dfb574] p-2 items-center justify-around shadow-lg">
+      <section className="bg-gray-100 py-6 hidden md:block mt-20">
+        <div className="w-full flex flex-row items-center bg-[#dfb574] justify-between px-8 py-4">
           {/* Left Side Images */}
-          <div className="flex flex-row space-x-2 md:mr-4">
+          <div className="flex flex-row space-x-2 ml-8">
             {leftSideImages.map((src, index) => (
               <img
                 key={`left-${index}`}
                 src={src}
                 alt={`Left image ${index + 1}`}
-                className="w-50 h-50 md:w-55 md:h-55 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-              />
+                className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
+                />
             ))}
           </div>
 
@@ -60,13 +60,13 @@ const Hero = () => {
           </div>
 
           {/* Right Side Images */}
-          <div className="flex flex-row space-x-2 md:ml-4">
+          <div className="flex flex-row space-x-2 mr-8">
             {rightSideImages.map((src, index) => (
               <img
                 key={`right-${index}`}
                 src={src}
                 alt={`Right image ${index + 1}`}
-                className="w-50 h-50 md:w-55 md:h-55 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
               />
             ))}
           </div>

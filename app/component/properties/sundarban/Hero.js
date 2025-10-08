@@ -1,15 +1,32 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { FaWifi, FaSwimmer, FaUtensils, FaMugHot, FaSnowflake, FaConciergeBell, FaUsers } from "react-icons/fa";
+import {
+  FaWifi,
+  FaSwimmer,
+  FaUtensils,
+  FaMugHot,
+  FaSnowflake,
+  FaConciergeBell,
+  FaUsers,
+} from "react-icons/fa";
 
 // New facilities list with React icons
 const facilitiesList = [
-  { title: "Air Conditioning", icon: <FaSnowflake size={48} color="#603100" /> },
+  {
+    title: "Air Conditioning",
+    icon: <FaSnowflake size={48} color="#603100" />,
+  },
   { title: "Restaurant", icon: <FaUtensils size={48} color="#603100" /> },
   { title: "Internet", icon: <FaWifi size={48} color="#603100" /> },
-  { title: "Room Service", icon: <FaConciergeBell size={48} color="#603100" /> },
+  {
+    title: "Room Service",
+    icon: <FaConciergeBell size={48} color="#603100" />,
+  },
   { title: "Swimming Pool", icon: <FaSwimmer size={48} color="#603100" /> },
-  { title: "Conference / Banquet Hall", icon: <FaUsers size={48} color="#603100" /> },
+  {
+    title: "Conference / Banquet Hall",
+    icon: <FaUsers size={48} color="#603100" />,
+  },
   { title: "Cafe", icon: <FaMugHot size={48} color="#603100" /> },
 ];
 
@@ -37,35 +54,35 @@ const Hero = () => {
   return (
     <div className="w-full overflow-x-hidden">
       {/* Desktop & Laptop Version */}
-      <section className="bg-gray-100 py-15 hidden md:block">
-        <div className="container mx-auto flex flex-row mt-10 bg-[#dfb574] p-2 items-center justify-around shadow-lg">
+      <section className="bg-gray-100 py-6 hidden md:block mt-20">
+        <div className="w-full flex flex-row items-center bg-[#dfb574] justify-between px-8 py-4">
           {/* Left Side Images */}
-          <div className="flex flex-row space-x-2 md:mr-4">
+          <div className="flex flex-row space-x-2 ml-8">
             {leftSideImages.map((src, index) => (
               <img
                 key={`left-${index}`}
                 src={src}
-                alt={`Left image ${index + 1}`}
-                className="w-50 h-50 md:w-52 md:h-52 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                alt={`Sundarban image ${index + 1}`}
+                className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
               />
             ))}
           </div>
 
-          {/* Center Text with underline effect */}
-          <div className="text-center">
+          {/* Center Text */}
+          <div className="text-center pl-4">
             <h1 className="text-3xl md:text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-            Sundarban
+               Sundarban
             </h1>
           </div>
 
           {/* Right Side Images */}
-          <div className="flex flex-row space-x-2 md:ml-4">
+          <div className="flex flex-row space-x-2 mr-8">
             {rightSideImages.map((src, index) => (
               <img
                 key={`right-${index}`}
                 src={src}
-                alt={`Right image ${index + 1}`}
-                className="w-50 h-50 md:w-52 md:h-52 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                alt={`Sundarban image ${index + 3}`}
+                className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
               />
             ))}
           </div>
@@ -90,7 +107,7 @@ const Hero = () => {
           {/* Center Text */}
           <div className="text-center mb-4">
             <h1 className="text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-            Sundarban
+              Sundarban
             </h1>
           </div>
 
@@ -120,8 +137,9 @@ const Hero = () => {
 
             {/* Auto-Scrolling Facilities Carousel */}
             <div
-              className={`w-full md:w-3/4 p-4 transition-opacity duration-1000 ${fadeIn ? "opacity-100" : "opacity-0"
-                }`}
+              className={`w-full md:w-3/4 p-4 transition-opacity duration-1000 ${
+                fadeIn ? "opacity-100" : "opacity-0"
+              }`}
             >
               <div className="overflow-hidden">
                 <div className="flex animate-marquee whitespace-nowrap">
