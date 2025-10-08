@@ -37,41 +37,41 @@ const Hero = () => {
   return (
     <div className="w-full overflow-x-hidden">
       {/* Desktop & Laptop Version */}
-      <section className="bg-gray-100 py-15 hidden md:block">
-        <div className="container mx-auto flex flex-row mt-10 bg-[#dfb574] p-2 items-center justify-around shadow-lg">
+       {/* Desktop & Laptop Version */}
+      <section className="bg-gray-100 py-6 hidden md:block mt-20">
+        <div className="w-full flex flex-row items-center bg-[#dfb574] justify-between px-8 py-4">
           {/* Left Side Images */}
-          <div className="flex flex-row space-x-2 md:mr-4">
+          <div className="flex flex-row space-x-2 ml-8">
             {leftSideImages.map((src, index) => (
               <img
                 key={`left-${index}`}
                 src={src}
                 alt={`Left image ${index + 1}`}
-                className="w-50 h-50 md:w-50 md:h-50 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
-              />
+                className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
+                />
             ))}
           </div>
 
           {/* Center Text with underline effect */}
           <div className="text-center pl-4">
             <h1 className="text-3xl md:text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-            Mice Group Packages
+               Mice Group Packages
             </h1>
           </div>
 
           {/* Right Side Images */}
-          <div className="flex flex-row space-x-2 md:ml-4">
+          <div className="flex flex-row space-x-2 mr-8">
             {rightSideImages.map((src, index) => (
               <img
                 key={`right-${index}`}
                 src={src}
                 alt={`Right image ${index + 1}`}
-                className="w-50 h-50 md:w-50 md:h-50 object-cover rounded-lg shadow-md transform transition-transform duration-300 hover:scale-105"
+                className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
               />
             ))}
           </div>
         </div>
       </section>
-
       {/* Mobile & Tablet Version */}
       <section className="bg-gray-100 py-15 md:hidden">
         <div className="container mx-auto flex flex-col items-center mt-10 bg-[#dfb574] p-4 shadow-lg">
