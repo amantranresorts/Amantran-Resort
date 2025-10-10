@@ -37,15 +37,18 @@ const About = () => {
               than a place to rest. We curate immersive experiences that nourish
               the heart, mind, and spirit. Our resort is designed to blend
               luxury with authenticity, offering spaces that reflect regional
-              charm, culture, and the joy of true hospitality. <br /> <span className="font-bold"> Rooted in
-              Tradition, Built with Passion</span> <br /> Whether you’re a weekend wanderer, a
-              spiritual seeker, or a corporate guest on retreat, Amantran Resort
-              welcomes you with open arms. From eco-friendly designs and local
-              craftsmanship to warm service and culinary delights, everything is
-              thoughtfully designed to make you feel valued and connected. Our
-              lush surroundings, traditional Bengali décor, and heartfelt
-              hospitality ensure that your stay is not just comfortable—but
-              unforgettable.
+              charm, culture, and the joy of true hospitality. <br />{" "}
+              <span className="font-bold">
+                {" "}
+                Rooted in Tradition, Built with Passion
+              </span>{" "}
+              <br /> Whether you’re a weekend wanderer, a spiritual seeker, or a
+              corporate guest on retreat, Amantran Resort welcomes you with open
+              arms. From eco-friendly designs and local craftsmanship to warm
+              service and culinary delights, everything is thoughtfully designed
+              to make you feel valued and connected. Our lush surroundings,
+              traditional Bengali décor, and heartfelt hospitality ensure that
+              your stay is not just comfortable—but unforgettable.
             </p>
             <div className="flex flex-wrap gap-3 mt-4">
               <span className="inline-block px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium shadow-sm">
@@ -92,9 +95,13 @@ const About = () => {
               tales of nature and nostalgia, we invite you to reconnect with
               yourself and your surroundings. Our resort captures the spirit of
               Bengal’s soulful hospitality—where every guest is family and every
-              moment is cherished. <br /> <span className="font-bold"> Crafted for Comfort, Inspired by Bengal 
-              </span> <br /> From serene rooms and soulful cuisine to lush gardens and handcrafted
-              interiors, Amantran Resort is where simplicity meets
+              moment is cherished. <br />{" "}
+              <span className="font-bold">
+                {" "}
+                Crafted for Comfort, Inspired by Bengal
+              </span>{" "}
+              <br /> From serene rooms and soulful cuisine to lush gardens and
+              handcrafted interiors, Amantran Resort is where simplicity meets
               sophistication. Our commitment to sustainability, community, and
               heartfelt service shines through in everything we do. Whether you
               come to relax, celebrate, or explore, we promise to make your time
@@ -106,6 +113,98 @@ const About = () => {
               </span>
               <span className="inline-block px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium shadow-sm">
                 Gourmet Dining
+              </span>
+            </div>
+          </div>
+        </div>
+        {/* third Row */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
+          {/* Left: Text */}
+          <div className="flex flex-col justify-center space-y-2">
+            <h3 className="text-sm md:text-lg uppercase font-medium font-cinzel text-[#eeb157]">
+              Where Spirituality Meets Serene Luxury
+            </h3>
+            <h3 className="text-xl md:text-3xl font-raleway font-medium text-[#1a3a2b] pb-2">
+              A Divine Retreat in the Heart of Sacred Tarapith
+            </h3>
+            <p className="text-base text-gray-700 leading-relaxed font-open-sans">
+              Situated in the spiritually charged atmosphere of Tarapith,
+              Amantran Resort offers a unique sanctuary where devotion meets
+              luxury. Your Spiritual Haven with Modern Comforts.
+              <br />{" "}
+              <span className="font-bold">
+                {" "}
+                Rooted in Tradition, Built with Passion
+              </span>{" "}
+              <br /> Wake up to the sacred chants from the nearby Tara Temple
+              and immerse yourself in the divine energy that permeates this holy
+              land. Our elegantly designed accommodations provide a tranquil
+              retreat after a day of spiritual exploration, blending traditional
+              architectural elements with contemporary amenities.
+            </p>
+            <div className="flex flex-wrap gap-3 mt-4">
+              <span className="inline-block px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium shadow-sm">
+                Temple Visits
+              </span>
+              <span className="inline-block px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium shadow-sm">
+                Cultural Experiences
+              </span>
+              <span className="inline-block px-4 py-2 bg-emerald-100 text-emerald-800 rounded-full text-sm font-medium shadow-sm">
+                Meditation Sessions
+              </span>
+            </div>
+          </div>
+          {/* Right: Image with overlay */}
+          <div className="relative flex justify-center">
+            <img
+              src="/images/tarapith/out2.jpg"
+              alt="Luxury Hotel"
+              className="rounded-3xl shadow-2xl object-cover w-full h-80"
+            />
+            <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/30 to-transparent"></div>
+          </div>
+        </div>
+        {/* fourth Row */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          {/* Left: Image with overlay */}
+          <div className="relative flex justify-center order-2 md:order-1">
+            <img
+              src="/images/chilapata/hotel1.jpg"
+              alt="Culinary Experience"
+              className="rounded-3xl shadow-2xl object-cover w-full h-80"
+            />
+            <div className="absolute inset-0 rounded-3xl bg-gradient-to-t from-black/20 to-transparent"></div>
+          </div>
+          {/* Right: Text */}
+          <div className="flex flex-col justify-center space-y-4 order-1 md:order-2">
+            <h3 className="text-sm md:text-lg uppercase font-medium font-raleway text-[#dfb574] tracking-wider">
+              Embrace Wilderness in Luxury Comfort
+            </h3>
+            <h3 className="text-2xl md:text-4xl font-cinzel font-semibold text-[#1a3a2b] pb-2">
+              Where Jungle Adventures Meet Serene Luxury
+            </h3>
+            <p className="text-base text-gray-700 font-open-sans leading-relaxed">
+              Nestled on the edge of the mystical Chilapata Forest, Amantran
+              Resort offers an unparalleled experience where wilderness meets
+              comfort.
+              <br />
+              <br />
+              <span className="font-bold text-[#1a3a2b]">
+                Your Sanctuary Amidst Wilderness
+              </span>
+              <br />
+              Wake up to the symphony of exotic birds and spend your days
+              exploring dense forests teeming with wildlife. Our thoughtfully
+              designed cottages blend seamlessly with the natural surroundings,
+              offering modern comforts without compromising the authentic jungle
+              experience.
+            </p>
+            <div className="flex flex-wrap gap-3 mt-6">
+              <span className="inline-block px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium shadow-sm border border-green-200">
+                Wildlife Safari
+              </span>
+              <span className="inline-block px-4 py-2 bg-amber-100 text-amber-800 rounded-full text-sm font-medium shadow-sm border border-amber-200">
+                Jungle Retreat
               </span>
             </div>
           </div>
