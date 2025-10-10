@@ -1,22 +1,32 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Cinzel, Raleway, Open_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import ScrollToTopButton from "./component/ScrollToTopButton";
 import Script from "next/script";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const cinzel = Cinzel({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-cinzel",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const raleway = Raleway({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-raleway",
+  display: "swap",
 });
 
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  variable: "--font-open-sans",
+  display: "swap",
+});
 export const metadata = {
-  title: "Amantran Resorts | Luxury Hotel Across Bengal’s Most Iconic Destinations",
+  title:
+    "Amantran Resorts | Luxury Hotel Across Bengal’s Most Iconic Destinations",
   description:
     "Stay at Amantran Resorts, a luxury hotel brand offering unforgettable stays across Bengal’s most iconic and scenic destinations.",
   icons: {
@@ -53,7 +63,8 @@ export default function RootLayout({ children }) {
                 "Amantran Resort—where heritage meets comfort. Experience cultural richness, luxurious rooms, gourmet dining, and world-class amenities.",
               url: "https://www.amantranresorts.in/",
               logo: "https://www.amantranresorts.in/images/logo.png",
-              image: "https://www.amantranresorts.in/images/kolkata-attractions.jpg",
+              image:
+                "https://www.amantranresorts.in/images/kolkata-attractions.jpg",
               address: {
                 "@type": "PostalAddress",
                 streetAddress:
@@ -71,18 +82,39 @@ export default function RootLayout({ children }) {
                 bestRating: "5",
               },
               amenityFeature: [
-                { "@type": "LocationFeatureSpecification", name: "Swimming Pool", value: true },
-                { "@type": "LocationFeatureSpecification", name: "WiFi", value: true },
-                { "@type": "LocationFeatureSpecification", name: "Restaurant", value: true },
-                { "@type": "LocationFeatureSpecification", name: "Gym", value: true },
-                { "@type": "LocationFeatureSpecification", name: "Conference Hall", value: true },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Swimming Pool",
+                  value: true,
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "WiFi",
+                  value: true,
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Restaurant",
+                  value: true,
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Gym",
+                  value: true,
+                },
+                {
+                  "@type": "LocationFeatureSpecification",
+                  name: "Conference Hall",
+                  value: true,
+                },
               ],
               event: {
                 "@type": "Event",
                 name: "Banquet Weddings & Corporate Events",
                 description:
                   "Celebrate in style with our elegant spaces, tailored for weddings, corporate functions, festivals, and private events.",
-                eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+                eventAttendanceMode:
+                  "https://schema.org/OfflineEventAttendanceMode",
                 eventStatus: "https://schema.org/EventScheduled",
                 location: {
                   "@type": "PostalAddress",
@@ -108,7 +140,9 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body
+        className={`${cinzel.variable} ${raleway.variable} ${openSans.variable} antialiased`}
+      >
         {/* ✅ Google Tag Manager (noscript) */}
         <noscript>
           <iframe

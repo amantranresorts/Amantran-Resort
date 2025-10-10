@@ -33,7 +33,7 @@ const KnowUs = () => {
           {/* Right Column: Responsive text content */}
           <div className="w-full md:w-2/3 mt-6 md:mt-0">
             <div className="flex flex-col items-center md:items-start text-left md:text-left">
-              <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-xl font-semibold font-barlow text-[#d8aa00] mb-4">
+              <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-xl font-semibold font-cinzel text-[#d8aa00] mb-4">
                 UNVEILING HERITAGE, LUXURY AND LEGACY
               </h1>
               <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-gilda text-black mb-4">

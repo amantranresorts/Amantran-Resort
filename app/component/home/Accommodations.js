@@ -94,13 +94,13 @@ Date: ${enquiryForm.date}`;
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="mb-8 text-center sm:text-left">
-          <h1 className="text-xl sm:text-2xl lg:text-3xl font-barlow text-amber-800 font-bold">
+          <h1 className="text-xl sm:text-2xl lg:text-3xl font-cinzel text-amber-800 font-bold">
             EXPLORE OUR LAVISH CHAMBERS AND MAGNIFICENT SUITES
           </h1>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold font-gilda text-black mt-2">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold font-raleway  text-black mt-2">
             Accommodations
           </h2>
-          <p className="text-sm sm:text-base md:text-lg font-serif text-black mb-4">
+          <p className="text-sm sm:text-base md:text-lg font-open-sans text-black mb-4">
             Prioritizing every stay as an unforgettable experience, we welcome you to explore the epitome of luxury and comfort, where elegance meets top-notch service.
           </p>
 

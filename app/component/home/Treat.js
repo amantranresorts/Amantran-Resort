@@ -14,13 +14,13 @@ const Treat = () => {
     <section className="flex flex-col lg:flex-row lg:p-16 md:p-8 p-4 bg-gray-100">
       {/* Left Text Section */}
       <div className="lg:w-1/2 w-full p-2 md:p-4 flex flex-col justify-center">
-        <h1 className="text-lg md:text-xl text-amber-600 font-semibold font-barlow mb-1">
+        <h1 className="text-lg md:text-xl text-amber-600 font-semibold font-cinzel mb-1">
           EVERY AMENITY HERE IS THE BEST YOU CAN GET
         </h1>
-        <h1 className="text-2xl md:text-3xl lg:text-4xl text-black font-gilda font-bold mb-4">
+        <h1 className="text-2xl md:text-3xl lg:text-4xl text-black font-raleway font-bold mb-4">
           Treat yourself to lavish comfort
         </h1>
-        <p className="text-sm md:text-base text-black mb-3 md:mb-4">
+        <p className="font-open-sans text-sm md:text-base text-black mb-3 md:mb-4">
           Amantran Resort, a distinguished name in India's hospitality sector,
           offers a blend of opulence and comfort tailored to meet the diverse
           needs of global travelers. With over 46 years of experience, our
