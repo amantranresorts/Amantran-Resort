@@ -92,10 +92,10 @@ const Elevate = () => {
         <h3 className="text-base text-[#d49c45] uppercase font-semibold">
           Experience Nature's Embrace with Exceptional Comfort
         </h3>
-        <h2 className="text-3xl md:text-4xl font-gilda mt-2">
+        <h2 className="text-3xl md:text-4xl font-raleway mt-2">
           The Best Hotel in Rocky Island Offers a Journey into Serenity
         </h2>
-        <p className="text-black font-serif mt-4 md:pr-20">
+        <p className="text-black font-open-sans mt-4 md:pr-20">
           Discover the tranquil beauty of Amantran Hotel & Resort – the best hotel in Rocky
           Island, where the gentle murmur of the Murti River and the lush
           greenery of Samsing create a harmonious backdrop for relaxation. Our

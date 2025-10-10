@@ -1,11 +1,18 @@
-
-import React from 'react';
-import Link from 'next/link';
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
+import React from "react";
+import Link from "next/link";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaInstagram,
+  FaMapMarkerAlt,
+  FaEnvelope,
+  FaPhoneAlt,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white font-gilda py-12 flex justify-center">
+    <footer className="bg-gray-900 text-white font-raleway py-12 flex justify-center">
       <div className="w-full max-w-7xl px-6">
         {/* Four-column layout for md and desktop */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -20,7 +27,8 @@ const Footer = () => {
                   <FaMapMarkerAlt className="text-[#dfb574] text-2xl" />
                 </span>
                 <span className="text-left">
-                  4, Dr Suresh Sarkar Road, Moulali, Amantran House (RTC House), 4th floor, Kolkata, West Bengal 700014
+                  4, Dr Suresh Sarkar Road, Moulali, Amantran House (RTC House),
+                  4th floor, Kolkata, West Bengal 700014
                 </span>
               </p>
             </div>
@@ -33,7 +41,9 @@ const Footer = () => {
               </h2>
               <p className="flex items-center justify-center space-x-2">
                 <FaEnvelope className="text-[#dfb574]" />
-                <span>amantranmarketing2025@gmail.com <br /> info@amantranresorts.in</span>
+                <span>
+                  amantranmarketing2025@gmail.com <br /> info@amantranresorts.in
+                </span>
               </p>
               <p className="flex items-center justify-center space-x-2">
                 <FaPhoneAlt className="text-[#dfb574]" />
@@ -59,7 +69,11 @@ const Footer = () => {
               <a href="#" className="hover:text-blue-700" aria-label="LinkedIn">
                 <FaLinkedinIn className="text-[#dfb574]" />
               </a>
-              <a href="#" className="hover:text-pink-500" aria-label="Instagram">
+              <a
+                href="#"
+                className="hover:text-pink-500"
+                aria-label="Instagram"
+              >
                 <FaInstagram className="text-[#dfb574]" />
               </a>
             </div>
@@ -87,7 +101,10 @@ const Footer = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/reservation-and-refund-policy" className="hover:underline">
+                  <Link
+                    href="/reservation-and-refund-policy"
+                    className="hover:underline"
+                  >
                     Reservation and Refund Policy
                   </Link>
                 </li>
@@ -97,7 +114,8 @@ const Footer = () => {
         </div>
         <div className="mt-10 flex flex-col md:flex-row md:justify-between border-t border-gray-700 pt-6 text-center">
           <p className="text-sm mb-4 md:mb-0">
-            Copyright © 2025. All Rights Reserved. Website Developed & Maintained by Digital Exposure Online Services
+            Copyright © 2025. All Rights Reserved. Website Developed &
+            Maintained by Digital Exposure Online Services
           </p>
           <div className="flex justify-center space-x-6">
             <a href="#" className="text-sm hover:underline">

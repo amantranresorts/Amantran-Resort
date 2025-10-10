@@ -75,14 +75,14 @@ const Hero = () => {
                 src={src}
                 alt={`Left image ${index + 1}`}
                 className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
-                />
+              />
             ))}
           </div>
 
           {/* Center Text with underline effect */}
           <div className="text-center pl-4">
-            <h1 className="text-3xl md:text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-               Contact
+            <h1 className="text-3xl md:text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+              Contact
             </h1>
           </div>
 
@@ -117,7 +117,7 @@ const Hero = () => {
 
           {/* Center Text */}
           <div className="text-center mb-4">
-            <h1 className="text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+            <h1 className="text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
               Contact
             </h1>
           </div>
@@ -135,7 +135,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      
+
       {/* CSS for marquee animation */}
       <style jsx>{`
         @keyframes marquee {

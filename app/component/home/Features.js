@@ -25,9 +25,9 @@ const Features = () => {
   return (
     <div className="container mx-auto px-4 py-10 bg-white">
       <div className="text-center mb-10">
-        <h2 className="text-xl font-semibold text-amber-600 font-barlow">OUR SERVICES</h2>
-        <h2 className="text-3xl md:text-4xl text-black font-gilda mt-2">Hotel Features &amp; Conveniences</h2>
-        <p className="mt-4 max-w-2xl mx-auto font-serif text-gray-600">
+        <h2 className="text-xl font-semibold text-amber-600 font-cinzel">OUR SERVICES</h2>
+        <h2 className="text-2xl md:text-4xl text-black font-raleway mt-2">Hotel Features &amp; Conveniences</h2>
+        <p className="mt-4 max-w-2xl mx-auto font-open-sans text-gray-600">
           Enjoy a relaxing stay with all our facilities right at your service for a wonderful experience at our beautiful range of abodes.
         </p>
       </div>
@@ -41,8 +41,8 @@ const Features = () => {
             <div className="flex justify-center mb-4 transition-transform duration-300 group-hover:-translate-y-2">
               {feature.icon}
             </div>
-            <h3 className="font-semibold text-amber-800 text-xl mb-2">{feature.title}</h3>
-            <p className="text-gray-900 text-sm">{feature.description}</p>
+            <h3 className="font-cinzel font-semibold text-amber-800 text-xl mb-2">{feature.title}</h3>
+            <p className="font-open-sans text-gray-900 text-sm">{feature.description}</p>
           </div>
         ))}
       </div>

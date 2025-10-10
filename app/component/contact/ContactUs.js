@@ -18,8 +18,7 @@ const ContactUs = () => {
     const messageField = formData.get("message");
 
     // Format the message for WhatsApp
-    const message = 
-`Name: ${name}
+    const message = `Name: ${name}
 Email: ${email}
 Phone: ${phone}
 Location: ${location}
@@ -29,7 +28,9 @@ To Date: ${toDate}
 Message: ${messageField}`;
 
     // Construct WhatsApp URL; number is 9147389029
-    const whatsappUrl = `https://wa.me/9147389029?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/9147389029?text=${encodeURIComponent(
+      message
+    )}`;
     window.open(whatsappUrl, "_blank");
   };
   return (
@@ -42,10 +43,10 @@ Message: ${messageField}`;
           transition={{ duration: 0.6 }}
           className="mb-8 sm:mb-10"
         >
-          <h2 className="text-base sm:text-lg md:text-xl uppercase font-semibold font-barlow text-[#DAA520]">
+          <h2 className="text-base sm:text-lg md:text-xl uppercase font-semibold font-cinzel text-[#DAA520]">
             Initiate Collaboration and Explore Opportunities
           </h2>
-          <h1 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-gilda text-black">
+          <h1 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-raleway text-black">
             Connect With Us
           </h1>
           <h3 className="mt-1 text-xs sm:text-sm font-medium text-black">
@@ -64,23 +65,28 @@ Message: ${messageField}`;
             className="bg-white bg-opacity-90 backdrop-filter backdrop-blur-lg shadow-2xl rounded-xl p-5 sm:p-8 w-full md:w-1/2 mb-6 md:mb-0"
           >
             <h4 className="text-xl sm:text-2xl font-semibold mb-3 sm:mb-4 text-amber-950">
-              Get in Touch <span className="text-base sm:text-lg">(Central Reservation)</span>
+              Get in Touch{" "}
+              <span className="text-base sm:text-lg">
+                (Central Reservation)
+              </span>
             </h4>
             <div className="space-y-4">
               <div className="flex items-center">
                 <FaPhone className="text-[#DAA520] mr-3" size={20} />
-                <span className="text-gray-700 text-base sm:text-lg">91473 89029</span>
-              </div>
-              <div className="flex items-center">
-                <FaEnvelope className="text-[#DAA520] mr-3" size={20} />
                 <span className="text-gray-700 text-base sm:text-lg">
-                amantranmarketing2025@gmail.com
+                  91473 89029
                 </span>
               </div>
               <div className="flex items-center">
                 <FaEnvelope className="text-[#DAA520] mr-3" size={20} />
                 <span className="text-gray-700 text-base sm:text-lg">
-                info@amantranresorts.in
+                  amantranmarketing2025@gmail.com
+                </span>
+              </div>
+              <div className="flex items-center">
+                <FaEnvelope className="text-[#DAA520] mr-3" size={20} />
+                <span className="text-gray-700 text-base sm:text-lg">
+                  info@amantranresorts.in
                 </span>
               </div>
               <div className="flex items-start">

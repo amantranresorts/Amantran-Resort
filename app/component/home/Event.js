@@ -33,10 +33,10 @@ const Event = () => {
   return (
     <div className="p-4 md:p-16 bg-amber-50">
       <div className="mb-8 px-4 md:px-20">
-        <h1 className="text-lg text-[#FFC145] font-barlow tracking-widest">
+        <h1 className="text-lg text-[#FFC145] font-raleway tracking-widest">
           GRANDEUR GALAS & EXQUISITE AFFAIRS
         </h1>
-        <h2 className="text-4xl font-gilda my-2">Events</h2>
+        <h2 className="text-4xl font-open-sans my-2">Events</h2>
         <p className="text-gray-700 max-w-7xl mb-6">
           Amantran Resort offers exquisite event venues and banquet halls,
           perfect for weddings, corporate meetings, festivals, and celebrations.
@@ -61,10 +61,10 @@ const Event = () => {
                 className="w-full h-80 object-cover"
               />
               <div className="absolute inset-0 bg-black/50 hover:bg-black/60 flex flex-col justify-center items-center p-4">
-                <h3 className="font-semibold text-2xl text-white mb-2">
+                <h3 className="font-raleway text-2xl text-white mb-2">
                   {event.title}
                 </h3>
-                <p className="text-gray-200 text-xl text-center">
+                <p className="text-gray-200 text-xl text-center font-open-sans">
                   {event.description}
                 </p>
               </div>

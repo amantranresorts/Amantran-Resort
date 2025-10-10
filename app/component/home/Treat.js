@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   FaPhone,
@@ -14,10 +13,10 @@ const Treat = () => {
     <section className="flex flex-col lg:flex-row lg:p-16 md:p-8 p-4 bg-gray-100">
       {/* Left Text Section */}
       <div className="lg:w-1/2 w-full p-2 md:p-4 flex flex-col justify-center">
-        <h1 className="text-lg md:text-xl text-amber-600 font-semibold font-cinzel mb-1">
+        <h1 className="text-lg md:text-xl text-amber-600 font-bold font-cinzel mb-1">
           EVERY AMENITY HERE IS THE BEST YOU CAN GET
         </h1>
-        <h1 className="text-2xl md:text-3xl lg:text-4xl text-black font-raleway font-bold mb-4">
+        <h1 className="text-2xl md:text-2xl lg:text-4xl text-black font-raleway font-semibold mb-4">
           Treat yourself to lavish comfort
         </h1>
         <p className="font-open-sans text-sm md:text-base text-black mb-3 md:mb-4">
@@ -28,33 +27,52 @@ const Treat = () => {
           Guests can indulge in a variety of world-class amenities, including a
           serene swimming pool, gourmet dining options, and elegantly designed
           rooms equipped with modern facilities like air conditioning,
-          flat-screen TVs, and complimentary Wi-Fi.Vist our <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best Hotel in Sundarban</a> for more information.
+          flat-screen TVs, and complimentary Wi-Fi.Vist our{" "}
+          <a
+            href="https://www.amantranresorts.in/properties/sundarban"
+            className="font-bold"
+          >
+            best Hotel in Sundarban
+          </a>{" "}
+          for more information.
         </p>
         <p className="text-sm md:text-base text-black mb-3 md:mb-4">
           By booking directly through our official website, guests can enjoy
           exclusive benefits such as the lowest guaranteed rates, special
           packages, and a seamless reservation experience without any hidden
           charges. Our secure payment gateway ensures that your transactions are
-          safe and hassle-free. You can book our <a href="https://www.amantranresorts.in/properties/rocky-island" className="font-bold">best Hotel in Rocky Island</a>
+          safe and hassle-free. You can book our{" "}
+          <a
+            href="https://www.amantranresorts.in/properties/rocky-island"
+            className="font-bold"
+          >
+            best Hotel in Rocky Island
+          </a>
         </p>
         <p className="text-sm md:text-base text-black mb-3 md:mb-4">
-          Discover the perfect getaway at Amantran Resort, <a href="https://www.amantranresorts.in/properties/tarapith" className="font-bold">Best Resorts in Tarapith</a> where luxury meets
-          tradition, and every stay is curated to provide an unforgettable
-          experience. Whether you're seeking a peaceful retreat or an
-          adventurous escape, Amantran Resort is your ideal destination.
+          Discover the perfect getaway at Amantran Resort,{" "}
+          <a
+            href="https://www.amantranresorts.in/properties/tarapith"
+            className="font-bold"
+          >
+            Best Resorts in Tarapith
+          </a>{" "}
+          where luxury meets tradition, and every stay is curated to provide an
+          unforgettable experience. Whether you're seeking a peaceful retreat or
+          an adventurous escape, Amantran Resort is your ideal destination.
         </p>
         <div className="flex items-center text-black mb-2 md:mb-4">
           <FaPhone className="text-3xl md:text-4xl text-amber-600 mr-3" />
           <h2 className="text-lg md:text-xl font-bold mb-0">Reservation</h2>
         </div>
         <div className="flex flex-col gap-1">
-          <span className="font-semibold text-amber-800 font-serif text-base md:text-xl">
+          <span className="font-semibold text-amber-800 font-open-sans text-base md:text-xl">
             +91 9147389029
           </span>
-          <span className="font-semibold text-amber-800 font-serif text-base md:text-xl break-all">
+          <span className="font-semibold text-amber-800 font-open-sans text-base md:text-xl break-all">
             amantranmarketing2025@gmail.com
           </span>
-          <span className="font-semibold text-amber-800 font-serif text-base md:text-xl break-all">
+          <span className="font-semibold text-amber-800 font-open-sans text-base md:text-xl break-all">
             info@amantranresorts.in
           </span>
         </div>
@@ -66,7 +84,9 @@ const Treat = () => {
         <div className="bg-white p-4 md:p-6 rounded-lg shadow-lg text-black flex flex-col items-center min-h-[180px] md:min-h-[200px] transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
           <div className="flex items-center mb-3 md:mb-4">
             <FaLock className="text-2xl md:text-3xl text-amber-600 mr-2" />
-            <h3 className="text-lg md:text-xl font-bold">Hassle-free Booking</h3>
+            <h3 className="text-lg md:text-xl font-bold">
+              Hassle-free Booking
+            </h3>
           </div>
           <ul className="space-y-2">
             <li className="text-xs md:text-sm flex items-center">
@@ -85,7 +105,9 @@ const Treat = () => {
         <div className="bg-white p-4 md:p-6 rounded-lg text-black shadow-lg flex flex-col items-center min-h-[180px] md:min-h-[200px] transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
           <div className="flex items-center mb-3 md:mb-4">
             <FaTimesCircle className="text-2xl md:text-3xl text-amber-600 mr-2" />
-            <h3 className="text-lg md:text-xl font-bold">Hassle-free Cancellation</h3>
+            <h3 className="text-lg md:text-xl font-bold">
+              Hassle-free Cancellation
+            </h3>
           </div>
           <ul className="space-y-2">
             <li className="text-xs md:text-base flex items-center">
@@ -103,7 +125,9 @@ const Treat = () => {
         <div className="bg-white p-4 md:p-6 rounded-lg text-black shadow-lg flex flex-col items-center min-h-[180px] md:min-h-[200px] transition-transform duration-300 ease-in-out transform hover:scale-105 hover:shadow-2xl">
           <div className="flex items-center mb-3 md:mb-4">
             <FaTag className="text-2xl md:text-3xl text-amber-600 mr-2" />
-            <h3 className="text-lg md:text-xl font-bold">Best Price Guaranteed</h3>
+            <h3 className="text-lg md:text-xl font-bold">
+              Best Price Guaranteed
+            </h3>
           </div>
           <ul className="space-y-2">
             <li className="text-xs md:text-base flex items-center">

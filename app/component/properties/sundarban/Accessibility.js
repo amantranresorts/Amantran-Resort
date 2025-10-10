@@ -11,8 +11,8 @@ const Accessibility = () => {
           <h3 className="text-base uppercase text-[#dfb574] font-semibold">
             Explore the Sacred Land of Sundarban
           </h3>
-          <h2 className="text-4xl font-gilda">Here’s How To Reach Us</h2>
-          <p className="text-gray-700 font-serif mx-auto">
+          <h2 className="text-4xl font-raleway">Here’s How To Reach Us</h2>
+          <p className="text-gray-700 font-open-sans mx-auto ">
             Know how to reach this luxury resort in Sundarban from Kolkata,
             including the distance from major locations in the city.
           </p>

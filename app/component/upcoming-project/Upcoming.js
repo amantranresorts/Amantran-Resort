@@ -1,21 +1,21 @@
 "use client";
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from "react";
 const ProjectCard = ({ imageSrc, altText, title }) => {
   const [showOverlay, setShowOverlay] = useState(false);
 
   // Toggle overlay state on click/tap
   const toggleOverlay = (e) => {
     e.stopPropagation();
-    setShowOverlay(prevState => !prevState);
+    setShowOverlay((prevState) => !prevState);
   };
 
   return (
-    <div 
+    <div
       className="group relative overflow-hidden rounded-lg border-2 border-white shadow-inner cursor-pointer min-w-[300px] max-w-xs mx-2"
       onClick={toggleOverlay}
       style={{ width: 300, flex: "0 0 auto" }}
     >
-      <img 
+      <img
         src={imageSrc}
         alt={altText}
         className="w-full sm:h-48 md:h-64 lg:h-72 object-cover rounded-lg shadow-lg"
@@ -30,7 +30,6 @@ const ProjectCard = ({ imageSrc, altText, title }) => {
   );
 };
 
-
 /**
  * Upcoming component renders the list of upcoming projects as a horizontal carousel.
  */
@@ -40,32 +39,30 @@ const Upcoming = () => {
     {
       imageSrc: "/images/sittong/1.jpg",
       altText: "Sittong",
-      title: "Sittong"
+      title: "Sittong",
     },
     {
       imageSrc: "/images/sittong/2.jpg",
       altText: "Sittong",
-      title: "Sittong"
+      title: "Sittong",
     },
     {
       imageSrc: "/images/sittong/3.webp",
       altText: "Sittong",
-      title: "Sittong"
+      title: "Sittong",
     },
     {
       imageSrc: "/images/sittong/4.jpg",
       altText: "Sittong",
-      title: "Sittong"
+      title: "Sittong",
     },
     {
       imageSrc: "/images/sittong/5.jpg",
       altText: "Sittong",
-      title: "Sittong"
+      title: "Sittong",
     },
-    
-    
   ];
-  
+
   // Refs for measuring widths
   const marqueeRef = useRef(null);
   const contentRef = useRef(null);
@@ -106,13 +103,20 @@ const Upcoming = () => {
       <div className="projects">
         <div className="max-w-7xl mx-auto px-4">
           <div className="section_title text-center mb-8">
-            <h3 className="text-lg font-barlow text-[#d49c45] uppercase">Anticipate the Grand Horizons for Our Future Projects</h3>
-            <h2 className="text-3xl md:text-4xl font-gilda mt-2">Upcoming New Ventures</h2>
-            <p className="mt-4 text-gray-600">Keep an eye out for our upcoming projects on the horizon as we strive to bring innovation and excellence to life.</p>
+            <h3 className="text-lg font-cinzel text-[#d49c45] uppercase">
+              Anticipate the Grand Horizons for Our Future Projects
+            </h3>
+            <h2 className="text-3xl md:text-4xl font-raleway mt-2">
+              Upcoming New Ventures
+            </h2>
+            <p className="mt-4 text-gray-600">
+              Keep an eye out for our upcoming projects on the horizon as we
+              strive to bring innovation and excellence to life.
+            </p>
           </div>
           {/* Gapless Marquee Carousel */}
           <div className="overflow-hidden" ref={marqueeRef}>
-            <div 
+            <div
               className="flex whitespace-nowrap"
               style={{
                 animation: `marquee ${animationDuration}s linear infinite`,

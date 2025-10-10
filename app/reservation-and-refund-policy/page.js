@@ -1,19 +1,19 @@
 "use client";
 import React from "react";
-import { 
-  FaRegClock, 
-  FaIdCard, 
-  FaRegMoneyBillAlt, 
-  FaUndo, 
-  FaEdit, 
-  FaInfoCircle, 
-  FaPhoneAlt, 
-  FaEnvelope, 
-  FaMapMarkerAlt, 
-  FaDog, 
-  FaSmokingBan, 
-  FaUtensils, 
-  FaExclamationTriangle 
+import {
+  FaRegClock,
+  FaIdCard,
+  FaRegMoneyBillAlt,
+  FaUndo,
+  FaEdit,
+  FaInfoCircle,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaDog,
+  FaSmokingBan,
+  FaUtensils,
+  FaExclamationTriangle,
 } from "react-icons/fa";
 
 const Section = ({ icon, title, children }) => (
@@ -47,10 +47,10 @@ const PolicyList = ({ items }) => (
 
 const Page = () => {
   return (
-    <div className="min-h-screen pt-30 bg-[#d8c499] font-barlow py-10 px-4 md:px-0">
+    <div className="min-h-screen pt-30 bg-[#d8c499] font-cinzel py-10 px-4 md:px-0">
       <div className="max-w-7xl mx-auto">
         <header className="mb-12 text-center">
-          <h1 className="text-4xl font-extrabold font-gilda text-amber-950 drop-shadow-lg flex items-center justify-center gap-3">
+          <h1 className="text-4xl font-extrabold font-raleway text-amber-950 drop-shadow-lg flex items-center justify-center gap-3">
             <FaInfoCircle className="text-pink-500 animate-pulse" />
             Reservation & Refund Policy
           </h1>
@@ -69,7 +69,8 @@ const Page = () => {
           />
           <div className="mt-3 flex items-center text-sm text-pink-600">
             <FaExclamationTriangle className="mr-2" />
-            Early check-in or late check-out requests are subject to availability and may incur additional charges.
+            Early check-in or late check-out requests are subject to
+            availability and may incur additional charges.
           </div>
         </Section>
 
@@ -129,43 +130,59 @@ const Page = () => {
         <Section icon={<FaInfoCircle />} title="General Terms">
           <ul className="flex flex-col gap-2 pl-1">
             <li className="flex items-center gap-2">
-              <FaDog className="text-pink-500" /> Pets are not allowed across all Amantran properties.
+              <FaDog className="text-pink-500" /> Pets are not allowed across
+              all Amantran properties.
             </li>
             <li className="flex items-center gap-2">
-              <FaUtensils className="text-blue-500" /> Outside food is not permitted within the hotel premises.
+              <FaUtensils className="text-blue-500" /> Outside food is not
+              permitted within the hotel premises.
             </li>
             <li className="flex items-center gap-2">
-              <FaSmokingBan className="text-red-500" /> Smoking is strictly prohibited in all indoor areas.
+              <FaSmokingBan className="text-red-500" /> Smoking is strictly
+              prohibited in all indoor areas.
             </li>
             <li className="flex items-center gap-2">
-              <FaExclamationTriangle className="text-yellow-500" /> Guests are responsible for any damage caused to hotel property during their stay.
+              <FaExclamationTriangle className="text-yellow-500" /> Guests are
+              responsible for any damage caused to hotel property during their
+              stay.
             </li>
           </ul>
         </Section>
 
         <Section icon={<FaPhoneAlt />} title="Contact Information">
-          <p className="mb-2">For any queries or assistance regarding reservations, cancellations, or refunds, please contact:</p>
+          <p className="mb-2">
+            For any queries or assistance regarding reservations, cancellations,
+            or refunds, please contact:
+          </p>
           <ul className="space-y-1">
             <li className="flex items-center gap-2">
-              <FaPhoneAlt className="text-green-600" /> <span className="font-medium">+91 9147389029</span>
+              <FaPhoneAlt className="text-green-600" />{" "}
+              <span className="font-medium">+91 9147389029</span>
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope className="text-blue-600" /> <span className="font-medium">amantranmarketing2025@gmail.com</span>
+              <FaEnvelope className="text-blue-600" />{" "}
+              <span className="font-medium">
+                amantranmarketing2025@gmail.com
+              </span>
             </li>
             <li className="flex items-center gap-2">
-              <FaEnvelope className="text-blue-600" /> <span className="font-medium">info@amantranresorts.in</span>
+              <FaEnvelope className="text-blue-600" />{" "}
+              <span className="font-medium">info@amantranresorts.in</span>
             </li>
             <li className="flex items-center gap-2">
               <FaMapMarkerAlt className="text-pink-600" />
               <span>
-                4, Dr. Suresh Sarkar Road, Moulali, Amantran House (RTC House), 4th Floor, Kolkata, West Bengal 700014
+                4, Dr. Suresh Sarkar Road, Moulali, Amantran House (RTC House),
+                4th Floor, Kolkata, West Bengal 700014
               </span>
             </li>
           </ul>
         </Section>
 
         <footer className="mt-8 text-center text-gray-500 text-sm">
-          Please note that specific terms and conditions may vary based on the property and rate selected. It is advisable to review the detailed policies at the time of booking.
+          Please note that specific terms and conditions may vary based on the
+          property and rate selected. It is advisable to review the detailed
+          policies at the time of booking.
         </footer>
       </div>
     </div>

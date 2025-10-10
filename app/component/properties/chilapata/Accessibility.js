@@ -1,7 +1,6 @@
-
 "use client";
-import React from 'react';
-import { FaMapMarkerAlt, FaPhone, FaEnvelope } from 'react-icons/fa';
+import React from "react";
+import { FaMapMarkerAlt, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Accessibility = () => {
   return (
@@ -13,9 +12,13 @@ const Accessibility = () => {
           <h3 className="text-base uppercase text-[#dfb574] font-semibold">
             Explore the Sacred Land of Chilapata
           </h3>
-          <h2 className="text-3xl sm:text-4xl font-gilda mt-2">Here’s How To Reach Us</h2>
-          <p className="text-gray-700 font-serif mt-4">
-            Discover the convenience of reaching our luxury resort, nestled amidst nature in West Bengal. Find directions and distances from key locations.
+          <h2 className="text-3xl sm:text-4xl font-raleway mt-2">
+            Here’s How To Reach Us
+          </h2>
+          <p className="text-gray-700 font-open-sans mt-4">
+            Discover the convenience of reaching our luxury resort, nestled
+            amidst nature in West Bengal. Find directions and distances from key
+            locations.
           </p>
         </div>
 
@@ -23,33 +26,34 @@ const Accessibility = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {/* Distance Information */}
           <div className="bg-white p-6 shadow-lg rounded-lg top-4 border border-gray-100">
-            <h4 className="text-xl font-bold flex items-center mb-4">
-              <img 
-                src="https://www.hotelsonarbangla.com/wp-content/themes/hsb/images/distance.png" 
-                alt="Distance Icon" 
-                className="inline-block mr-2 w-6 h-6" 
+            <h4 className="text-xl font-bold font-cinzel flex items-center mb-4">
+              <img
+                src="https://www.hotelsonarbangla.com/wp-content/themes/hsb/images/distance.png"
+                alt="Distance Icon"
+                className="inline-block mr-2 w-6 h-6"
               />
               Distance From
             </h4>
             <p className="text-gray-600 mb-4">
-              Reaching Amantran Resort Chilapata is a breeze. Below we have listed distances from various prominent locations.
+              Reaching Amantran Resort Chilapata is a breeze. Below we have
+              listed distances from various prominent locations.
             </p>
             <ul className="space-y-2">
               {[
-                 { name: 'Hasimara Railway Station', distance: '20 km' },
-                 { name: 'Alipurduar Junction', distance: '25 km' },
-                 { name: 'Bagdogra Airport (Siliguri)', distance: '155 km' },
-                 { name: 'Jaldapara National Park', distance: '18 km' },
-                 { name: 'Buxa Tiger Reserve', distance: '35 km' },
-                 { name: 'Phuentsholing (Bhutan Border)', distance: '45 km' },
-                 { name: 'Cooch Behar Palace', distance: '70 km' },
-                 { name: 'Jayanti Hills & Mahakal Cave', distance: '40 km' },
-                 { name: 'Totopara Tribal Village', distance: '22 km' },
-                 { name: 'South Khayerbari Rescue Center', distance: '12 km' },
-                 { name: 'Chilapata Forest Safari Point', distance: '1.5 km' }
+                { name: "Hasimara Railway Station", distance: "20 km" },
+                { name: "Alipurduar Junction", distance: "25 km" },
+                { name: "Bagdogra Airport (Siliguri)", distance: "155 km" },
+                { name: "Jaldapara National Park", distance: "18 km" },
+                { name: "Buxa Tiger Reserve", distance: "35 km" },
+                { name: "Phuentsholing (Bhutan Border)", distance: "45 km" },
+                { name: "Cooch Behar Palace", distance: "70 km" },
+                { name: "Jayanti Hills & Mahakal Cave", distance: "40 km" },
+                { name: "Totopara Tribal Village", distance: "22 km" },
+                { name: "South Khayerbari Rescue Center", distance: "12 km" },
+                { name: "Chilapata Forest Safari Point", distance: "1.5 km" },
               ].map((item, index) => (
-                <li 
-                  key={index} 
+                <li
+                  key={index}
                   className="flex justify-between items-center border-b pb-2 last:border-0"
                 >
                   <span className="font-semibold">{item.name}</span>
@@ -66,10 +70,10 @@ const Accessibility = () => {
             {/* Get In Touch Section */}
             <div className="bg-white p-6 shadow-lg rounded-lg border border-gray-100">
               <h4 className="text-xl font-bold flex items-center mb-4">
-                <img 
-                  src="https://www.hotelsonarbangla.com/wp-content/themes/hsb/images/thumbsup.png" 
-                  alt="Contact Icon" 
-                  className="inline-block mr-2 w-6 h-6" 
+                <img
+                  src="https://www.hotelsonarbangla.com/wp-content/themes/hsb/images/thumbsup.png"
+                  alt="Contact Icon"
+                  className="inline-block mr-2 w-6 h-6"
                 />
                 Get in Touch
               </h4>
@@ -92,8 +96,18 @@ const Accessibility = () => {
                   <div>
                     <div className="font-semibold">Phone:</div>
                     <p className="text-gray-700 space-y-1">
-                      <a href="tel:+91-9147389022" className="hover:underline block">+91-91473 89022</a>
-                      <a href="tel:+91-9147389023" className="hover:underline block">+91-91473 89023</a>
+                      <a
+                        href="tel:+91-9147389022"
+                        className="hover:underline block"
+                      >
+                        +91-91473 89022
+                      </a>
+                      <a
+                        href="tel:+91-9147389023"
+                        className="hover:underline block"
+                      >
+                        +91-91473 89023
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -103,14 +117,15 @@ const Accessibility = () => {
                   </div>
                   <div>
                     <div className="font-semibold">Email:</div>
-                    <a 
-                      href="mailto:tarapith@hotelsonarbangla.com" 
+                    <a
+                      href="mailto:tarapith@hotelsonarbangla.com"
                       className="text-blue-600 hover:underline"
                     >
                       amantranmarketing2025@gmail.com
-                    </a> <br />
-                    <a 
-                      href="mailto:tarapith@hotelsonarbangla.com" 
+                    </a>{" "}
+                    <br />
+                    <a
+                      href="mailto:tarapith@hotelsonarbangla.com"
                       className="text-blue-600 hover:underline"
                     >
                       info@amantranresorts.in
@@ -123,10 +138,10 @@ const Accessibility = () => {
             {/* Location Map */}
             <div className="bg-white p-6 shadow-lg rounded-lg border border-gray-100">
               <h4 className="text-xl font-bold flex items-center mb-4">
-                <img 
-                  src="https://www.hotelsonarbangla.com/wp-content/themes/hsb/images/location.png" 
-                  alt="Location Map Icon" 
-                  className="inline-block mr-2 w-6 h-6" 
+                <img
+                  src="https://www.hotelsonarbangla.com/wp-content/themes/hsb/images/location.png"
+                  alt="Location Map Icon"
+                  className="inline-block mr-2 w-6 h-6"
                 />
                 Location Map
               </h4>

@@ -10,23 +10,30 @@ const Discover = () => {
           <div className="w-full md:w-1/2">
             <div className="whitebox wow slideInUp tick tick_double mb-3 p-6 bg-white shadow-lg border border-gray-200 rounded">
               <div className="section_title mb-4">
-                <h3 className="text-base font-barlow font-semibold uppercase text-[#d49c45]">
+                <h3 className="text-base font-cinzel font-semibold uppercase text-[#d49c45]">
                   Discover the Wild Serenity of the Sundarbans
                 </h3>
-                <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
+                <h2 className="text-3xl sm:text-4xl font-raleway text-gray-800">
                   The Best Resort in Sundarbans
                 </h2>
               </div>
-              <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
+              <p className="mb-4 font-open-sans text-gray-700 text-sm sm:text-base">
                 Nestled in the heart of the world's largest mangrove forest,
-                Amantran Resort, the best resort in Sundarbans offers an unparalleled blend
-                of comfort and nature. Experience the tranquil beauty of the
-                delta as you relax in our well-appointed rooms, each designed to
-                provide a serene retreat after a day of exploration. With
-                top-notch amenities and warm hospitality, your stay promises to
-                be both adventurous and restful. Explore our <a href="https://www.amantranresorts.in/properties/tarapith" className="font-bold">best resort in Tarapith</a> as well.
+                Amantran Resort, the best resort in Sundarbans offers an
+                unparalleled blend of comfort and nature. Experience the
+                tranquil beauty of the delta as you relax in our well-appointed
+                rooms, each designed to provide a serene retreat after a day of
+                exploration. With top-notch amenities and warm hospitality, your
+                stay promises to be both adventurous and restful. Explore our{" "}
+                <a
+                  href="https://www.amantranresorts.in/properties/tarapith"
+                  className="font-bold"
+                >
+                  best resort in Tarapith
+                </a>{" "}
+                as well.
               </p>
-              <ul className="grid grid-cols-2 gap-2 font-serif text-xs sm:text-sm">
+              <ul className="grid grid-cols-2 gap-2 font-open-sans text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
                   Settled in divine aura
                 </li>

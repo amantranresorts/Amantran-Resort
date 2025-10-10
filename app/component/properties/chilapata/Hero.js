@@ -1,31 +1,47 @@
-"use client"
-import React, { useEffect, useState } from 'react';
-import { FaWifi, FaSwimmer, FaUtensils, FaMugHot, FaSnowflake, FaConciergeBell, FaUsers } from "react-icons/fa";
+"use client";
+import React, { useEffect, useState } from "react";
+import {
+  FaWifi,
+  FaSwimmer,
+  FaUtensils,
+  FaMugHot,
+  FaSnowflake,
+  FaConciergeBell,
+  FaUsers,
+} from "react-icons/fa";
 
 // New facilities list with React icons
 const facilitiesList = [
-  { title: "Air Conditioning", icon: <FaSnowflake size={48} color="#603100" /> },
+  {
+    title: "Air Conditioning",
+    icon: <FaSnowflake size={48} color="#603100" />,
+  },
   { title: "Restaurant", icon: <FaUtensils size={48} color="#603100" /> },
   { title: "Internet", icon: <FaWifi size={48} color="#603100" /> },
-  { title: "Room Service", icon: <FaConciergeBell size={48} color="#603100" /> },
+  {
+    title: "Room Service",
+    icon: <FaConciergeBell size={48} color="#603100" />,
+  },
   { title: "Swimming Pool", icon: <FaSwimmer size={48} color="#603100" /> },
-  { title: "Conference / Banquet Hall", icon: <FaUsers size={48} color="#603100" /> },
+  {
+    title: "Conference / Banquet Hall",
+    icon: <FaUsers size={48} color="#603100" />,
+  },
   { title: "Cafe", icon: <FaMugHot size={48} color="#603100" /> },
 ];
 
 // Define separate image arrays for left and right sides
 const leftSideImages = [
-  '/images/chilapata/out8.jpg',
-  '/images/chilapata/out12.jpg',
-  '/images/chilapata/left.jpg',
+  "/images/chilapata/out8.jpg",
+  "/images/chilapata/out12.jpg",
+  "/images/chilapata/left.jpg",
 ];
 
 const rightSideImages = [
-  '/images/chilapata/right.jpg',
-  '/images/chilapata/out2.jpg',
-  '/images/chilapata/out7.jpg',
+  "/images/chilapata/right.jpg",
+  "/images/chilapata/out2.jpg",
+  "/images/chilapata/out7.jpg",
 ];
-
 
 const Hero = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -48,14 +64,14 @@ const Hero = () => {
                 src={src}
                 alt={`Left image ${index + 1}`}
                 className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
-                />
+              />
             ))}
           </div>
 
           {/* Center Text with underline effect */}
           <div className="text-center pl-4">
-            <h1 className="text-3xl md:text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-               Chilapata
+            <h1 className="text-3xl md:text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+              Chilapata
             </h1>
           </div>
 
@@ -90,7 +106,7 @@ const Hero = () => {
 
           {/* Center Text */}
           <div className="text-center mb-4">
-            <h1 className="text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+            <h1 className="text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
               Chilapata
             </h1>
           </div>
@@ -120,12 +136,19 @@ const Hero = () => {
             </div>
 
             {/* Auto-Scrolling Facilities Carousel */}
-            <div className={`w-full md:w-3/4 p-4 transition-opacity duration-1000 ${fadeIn ? 'opacity-100' : 'opacity-0'}`}>
+            <div
+              className={`w-full md:w-3/4 p-4 transition-opacity duration-1000 ${
+                fadeIn ? "opacity-100" : "opacity-0"
+              }`}
+            >
               <div className="overflow-hidden">
                 <div className="flex animate-marquee whitespace-nowrap">
                   <div className="flex space-x-6">
                     {facilitiesList.map((facility, index) => (
-                      <div key={`item1-${index}`} className="flex flex-col items-center flex-shrink-0 bg-gray-50 rounded-lg p-4 shadow hover:shadow-xl transform transition duration-300 hover:-translate-y-1">
+                      <div
+                        key={`item1-${index}`}
+                        className="flex flex-col items-center flex-shrink-0 bg-gray-50 rounded-lg p-4 shadow hover:shadow-xl transform transition duration-300 hover:-translate-y-1"
+                      >
                         {/* Icon instead of image */}
                         <div className="w-16 h-16 md:w-24 md:h-24 flex items-center justify-center">
                           {facility.icon}
@@ -139,7 +162,10 @@ const Hero = () => {
                   {/* Duplicate the items for a seamless marquee effect */}
                   <div className="flex space-x-6">
                     {facilitiesList.map((facility, index) => (
-                      <div key={`item2-${index}`} className="flex flex-col items-center flex-shrink-0 bg-gray-50 rounded-lg p-4 shadow hover:shadow-xl transform transition duration-300 hover:-translate-y-1">
+                      <div
+                        key={`item2-${index}`}
+                        className="flex flex-col items-center flex-shrink-0 bg-gray-50 rounded-lg p-4 shadow hover:shadow-xl transform transition duration-300 hover:-translate-y-1"
+                      >
                         {/* Icon instead of image */}
                         <div className="w-16 h-16 md:w-24 md:h-24 flex items-center justify-center">
                           {facility.icon}

@@ -10,17 +10,17 @@ const Discover = () => {
           <div className="w-full md:w-1/2">
             <div className="whitebox wow slideInUp tick tick_double mb-3 p-6 bg-white shadow-lg border border-gray-200 rounded">
               <div className="section_title mb-4">
-                <h3 className="text-base font-barlow font-semibold uppercase text-[#d49c45]">
+                <h3 className="text-base font-cinzel font-semibold uppercase text-[#d49c45]">
                 Embrace Nature's Serenity & Luxury
                 </h3>
-                <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
+                <h2 className="text-3xl sm:text-4xl font-raleway text-gray-800">
                 The Best Hotel In Chilapata
                 </h2>
               </div>
-              <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
+              <p className="mb-4 font-open-sans text-gray-700 text-sm sm:text-base">
               Nestled amidst the lush greenery of the Chilapata Forest, Amantran Resort, The Best Hotel InChilapata offers a harmonious blend of comfort and nature. Located just 11 miles from Alipurduar Junction, our resort provides an ideal retreat for those seeking peace and rejuvenation. Guests can indulge in our well-appointed rooms, savor delectable cuisine at our on-site restaurant, and explore the rich biodiversity of the surrounding forest. With amenities like free Wi-Fi, air conditioning, and room service, every stay promises relaxation and convenience. Experience the tranquility of nature without compromising on luxury at Amantran Resort Chilapata.You can also visit <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best Hotel in Sundarban</a>
               </p>
-              <ul className="grid grid-cols-2 gap-2 font-serif text-xs sm:text-sm">
+              <ul className="grid grid-cols-2 gap-2 font-open-sans text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
                   Settled in divine aura
                 </li>

@@ -11,11 +11,11 @@ const About = () => {
       <div className="container mx-auto border-amber-950 border-1 p-10 relative z-10">
         {/* Section Header */}
         <div className="text-center mb-14">
-          <h2 className="text-4xl md:text-5xl font-gilda font-extrabold text-gray-900 mb-4 tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-cinzel font-extrabold text-gray-900 mb-4 tracking-tight">
             Welcome to Amantran Resort – A Soulful Escape
           </h2>
           <div className="mx-auto w-24 h-1 bg-gradient-to-r from-amber-400 via-amber-600 to-amber-400 rounded-full mb-4"></div>
-          <p className="text-lg md:text-xl text-gray-600 font-light font-barlow max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 font-light font-raleway max-w-2xl mx-auto">
             Immerse Yourself in Tranquility, Tradition, and True Hospitality
           </p>
         </div>
@@ -24,13 +24,13 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           {/* Left: Text */}
           <div className="flex flex-col justify-center space-y-2">
-            <h3 className="text-sm md:text-lg uppercase font-medium font-barlow text-[#dfb574]">
+            <h3 className="text-sm md:text-lg uppercase font-medium font-cinzel text-[#eeb157]">
               A Soulful Escape into Bengal’s Heritage and Warmth
             </h3>
-            <h3 className="text-xl md:text-3xl font-gilda font-medium text-[#1a3a2b] pb-2">
+            <h3 className="text-xl md:text-3xl font-raleway font-medium text-[#1a3a2b] pb-2">
               Crafting Memories, Not Just Stays
             </h3>
-            <p className="text-base text-gray-700 font-serif leading-relaxed">
+            <p className="text-base text-gray-700 leading-relaxed font-open-sans">
               At Amantran Resort, we believe in the magic of mindful
               travel—where every journey becomes a beautiful memory and every
               stay feels like home. Inspired by Bengal’s soul, we offer more
@@ -80,13 +80,13 @@ const About = () => {
           </div>
           {/* Right: Text */}
           <div className="flex flex-col justify-center space-y-2 order-1 md:order-2">
-            <h3 className="text-sm md:text-lg uppercase font-medium font-barlow text-[#dfb574]">
+            <h3 className="text-sm md:text-lg uppercase font-medium font-raleway text-[#dfb574]">
               Rediscover Yourself in the Lap of Nature and Culture
             </h3>
-            <h3 className="text-xl md:text-3xl font-gilda font-medium text-[#1a3a2b] pb-2">
+            <h3 className="text-xl md:text-3xl font-raleway font-medium text-[#1a3a2b] pb-2">
               A Retreat Woven with Elegance and Earthiness
             </h3>
-            <p className="text-base text-gray-700 font-serif leading-relaxed">
+            <p className="text-base text-gray-700 font-open-sans leading-relaxed">
               Amantran Resort isn’t just a destination—it’s a story of Bengal’s
               warmth, charm, and timeless traditions. With every corner echoing
               tales of nature and nostalgia, we invite you to reconnect with

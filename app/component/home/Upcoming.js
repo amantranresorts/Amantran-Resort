@@ -23,7 +23,7 @@ const ProjectCard = ({ imageSrc, altText, title }) => {
       />
       {/* Always-visible bottom overlay */}
       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-transparent to-transparent px-4 py-2">
-        <h2 className="text-xl font-semibold text-white">{title}</h2>
+        <h2 className="text-xl font-open-sans text-white">{title}</h2>
       </div>
       {/* Overlay that appears on hover (desktop) or on click (mobile/tablet) */}
     </div>
@@ -106,9 +106,9 @@ const Upcoming = () => {
       <div className="projects">
         <div className="max-w-7xl mx-auto px-4">
           <div className="section_title text-center mb-8">
-            <h3 className="text-lg font-barlow text-[#d49c45] uppercase">Anticipate the Grand Horizons for Our Future Projects</h3>
-            <h2 className="text-3xl md:text-4xl font-gilda mt-2">Upcoming New Ventures</h2>
-            <p className="mt-4 text-gray-600">Keep an eye out for our upcoming projects on the horizon as we strive to bring innovation and excellence to life.</p>
+            <h3 className="text-lg font-cinzel text-[#d49c45] uppercase">Anticipate the Grand Horizons for Our Future Projects</h3>
+            <h2 className="text-3xl md:text-4xl font-raleway mt-2">Upcoming New Ventures</h2>
+            <p className="mt-4 text-gray-600 font-open-sans">Keep an eye out for our upcoming projects on the horizon as we strive to bring innovation and excellence to life.</p>
           </div>
           {/* Gapless Marquee Carousel */}
           <div className="overflow-hidden" ref={marqueeRef}>

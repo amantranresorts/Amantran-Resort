@@ -167,14 +167,14 @@ const Navbar = () => {
           <Image src="/images/logo.png" alt="Logo" width={80} height={80} />
           {/* Vertical line separator */}
           <div className="border-1 border-[#d49c45] h-18 mx-1"></div>
-          <span className="font-bold font-gilda uppercase  text-amber-950 opacity-75 text-xl">
+          <span className="font-bold font-raleway uppercase  text-amber-950 opacity-75 text-xl">
             {logoText}
           </span>
         </div>
       </Link>
 
       {/* Desktop menu */}
-      <ul className="hidden md:flex flex-row gap-8 font-serif items-center">
+      <ul className="hidden md:flex flex-row gap-8 font-open-sans items-center">
         {renderNavLink("/", "Home")}
         {renderNavLink("/about", "About")}
         {renderDesktopProperties()}

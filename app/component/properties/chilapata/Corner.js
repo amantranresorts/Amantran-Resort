@@ -175,7 +175,7 @@ const Practice = () => {
 
         {/* Main Heading */}
         <div className="text-center mb-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight font-gilda">
+          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight font-raleway">
             The Best Hotel in Chilapata <br />
             <span className="text-amber-600">
               Explore the Scenic Surroundings
@@ -186,7 +186,7 @@ const Practice = () => {
 
         {/* Description */}
         <div className="max-w-4xl mx-auto">
-          <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-center font-light">
+          <p className="text-lg md:text-xl text-gray-700 leading-relaxed text-center font-light font-open-sans">
             Take a quick virtual stroll through the enchanting world of{" "}
             <span className="font-semibold text-amber-700">
               Hotel Amantran Chilapata

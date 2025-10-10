@@ -19,10 +19,10 @@ const Offer = () => {
                             <h3 className="text-base sm:text-lg md:text-xl uppercase text-[#d49c45]">
                                 Tailor Made Packages and Offerings
                             </h3>
-                            <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-gilda text-gray-700">
+                            <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-raleway text-gray-700">
                                 MICE/GROUP Packages
                             </h2>
-                            <p className="mt-2 text-sm sm:text-base md:text-lg font-serif text-amber-950 leading-relaxed">
+                            <p className="mt-2 text-sm sm:text-base md:text-lg font-open-sans text-amber-950 leading-relaxed">
                                 Transform your journey with a personal touch. Experience the magic of customization and tailor your package as per your requirement, because true luxury lies in the little things that make it uniquely yours.
                             </p>
                         </div>

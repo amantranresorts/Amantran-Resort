@@ -10,14 +10,14 @@ const Discover = () => {
           <div className="w-full md:w-1/2">
             <div className="whitebox wow slideInUp tick tick_double mb-3 p-6 bg-white shadow-lg border border-gray-200 rounded">
               <div className="section_title mb-4">
-                <h3 className="text-base font-barlow font-semibold uppercase text-[#d49c45]">
+                <h3 className="text-base font-cinzel font-semibold uppercase text-[#d49c45]">
                   Embrace Nature's Tranquility
                 </h3>
-                <h2 className="text-3xl sm:text-4xl font-gilda text-gray-800">
+                <h2 className="text-3xl sm:text-4xl font-raleway text-gray-800">
                   The Best Resort in Rocky Island
                 </h2>
               </div>
-              <p className="mb-4 font-serif text-gray-700 text-sm sm:text-base">
+              <p className="mb-4 font-open-sans text-gray-700 text-sm sm:text-base">
                 Nestled amidst the serene landscapes of Samsing, Amantran Hotel
                 & Resort – the <a> best resort in Rocky Island </a>  offers a tranquil retreat where nature's
                 beauty meets comfort. Overlooking the gentle flow of the Murti
@@ -29,7 +29,7 @@ const Discover = () => {
                 adventurous exploration of the Dooars region, Amantran Rocky
                 Island serves as the perfect base. You can also visit our <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best hotel in Sundarban</a>
               </p>
-              <ul className="grid grid-cols-2 gap-2 font-serif text-xs sm:text-sm">
+              <ul className="grid grid-cols-2 gap-2 font-open-sans text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
                   Settled in divine aura
                 </li>

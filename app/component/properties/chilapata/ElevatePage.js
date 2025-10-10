@@ -97,8 +97,8 @@ const ElevatePage = () => {
     <div className="container mx-auto p-4">
       {/* Section Header */}
       <div className="text-center mb-10">
-        <h3 className="text-2xl font-semibold mb-2">Elevate Your Stay With Unmatched Hospitality</h3>
-        <h2 className="text-4xl font-bold mb-4">Every Room Ensures Comfort</h2>
+        <h3 className="text-2xl font-semibold mb-2 font-cinzel">Elevate Your Stay With Unmatched Hospitality</h3>
+        <h2 className="text-4xl font-bold mb-4 font-raleway">Every Room Ensures Comfort</h2>
         <p className="text-gray-600 max-w-3xl mx-auto">
           Unveil divine spirituality at Hotel Sonar Bangla, Tarapith, as opulent luxuries seamlessly blend with the comforting embrace of sacred surroundings.
           Lavish chambers, adorned by the picturesque tapestry and spiritual magnificence of Tarapith, create an idyllic retreat, inviting you to embrace a serene pilgrimage escape.

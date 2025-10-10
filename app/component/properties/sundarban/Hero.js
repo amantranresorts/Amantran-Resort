@@ -70,8 +70,8 @@ const Hero = () => {
 
           {/* Center Text */}
           <div className="text-center pl-4">
-            <h1 className="text-3xl md:text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-               Sundarban
+            <h1 className="text-3xl md:text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+              Sundarban
             </h1>
           </div>
 
@@ -106,7 +106,7 @@ const Hero = () => {
 
           {/* Center Text */}
           <div className="text-center mb-4">
-            <h1 className="text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+            <h1 className="text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
               Sundarban
             </h1>
           </div>

@@ -1,30 +1,57 @@
-"use client"
-import React, { useEffect, useState } from 'react';
+"use client";
+import React, { useEffect, useState } from "react";
 
 // New facilities list with images
 const facilitiesList = [
-  { title: "Air Conditioning", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Air-Conditioner.webp" },
-  { title: "Restaurant", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Restaurant-icon-2.webp" },
-  { title: "Internet", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/wifi-2.webp" },
-  { title: "Room Service", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Room-Service-icon-1.webp" },
-  { title: "Swimming Pool", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Swimming-Pool-icon-2.webp" },
-  { title: "Conference / Banquet Hall", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Conference-hall-icon-2.webp" },
-  { title: "Cafe", image: "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Cafe-2-1-1.webp" },
+  {
+    title: "Air Conditioning",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Air-Conditioner.webp",
+  },
+  {
+    title: "Restaurant",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Restaurant-icon-2.webp",
+  },
+  {
+    title: "Internet",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/wifi-2.webp",
+  },
+  {
+    title: "Room Service",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Room-Service-icon-1.webp",
+  },
+  {
+    title: "Swimming Pool",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Swimming-Pool-icon-2.webp",
+  },
+  {
+    title: "Conference / Banquet Hall",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Conference-hall-icon-2.webp",
+  },
+  {
+    title: "Cafe",
+    image:
+      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Cafe-2-1-1.webp",
+  },
 ];
 
 // Define separate image arrays for left and right sides
 const leftSideImages = [
-  '/images/chilapata/out8.jpg',
-  '/images/chilapata/out12.jpg',
-  '/images/chilapata/left.jpg',
+  "/images/chilapata/out8.jpg",
+  "/images/chilapata/out12.jpg",
+  "/images/chilapata/left.jpg",
 ];
 
 const rightSideImages = [
-  '/images/chilapata/right.jpg',
-  '/images/chilapata/out2.jpg',
-  '/images/chilapata/out7.jpg',
+  "/images/chilapata/right.jpg",
+  "/images/chilapata/out2.jpg",
+  "/images/chilapata/out7.jpg",
 ];
-
 
 const Hero = () => {
   const [fadeIn, setFadeIn] = useState(false);
@@ -37,7 +64,7 @@ const Hero = () => {
   return (
     <div className="w-full overflow-x-hidden">
       {/* Desktop & Laptop Version */}
-       {/* Desktop & Laptop Version */}
+      {/* Desktop & Laptop Version */}
       <section className="bg-gray-100 py-6 hidden md:block mt-20">
         <div className="w-full flex flex-row items-center bg-[#dfb574] justify-between px-8 py-4">
           {/* Left Side Images */}
@@ -48,14 +75,14 @@ const Hero = () => {
                 src={src}
                 alt={`Left image ${index + 1}`}
                 className="w-32 h-32 object-cover rounded-lg shadow-lg border-2 border-white md:w-36 md:h-36 transform transition-transform duration-300 hover:scale-105"
-                />
+              />
             ))}
           </div>
 
           {/* Center Text with underline effect */}
           <div className="text-center pl-4">
-            <h1 className="text-3xl md:text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-               Mice Group Packages
+            <h1 className="text-3xl md:text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+              Mice Group Packages
             </h1>
           </div>
 
@@ -89,8 +116,8 @@ const Hero = () => {
 
           {/* Center Text */}
           <div className="text-center mb-4">
-            <h1 className="text-3xl font-gilda font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
-            Mice Group Packages
+            <h1 className="text-3xl font-raleway font-bold text-[#603100] drop-shadow-lg inline-block border-b-4 border-[#603100] pb-1">
+              Mice Group Packages
             </h1>
           </div>
 
@@ -107,7 +134,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      
+
       {/* CSS for marquee animation */}
       <style jsx>{`
         @keyframes marquee {

@@ -179,7 +179,7 @@ const Practice = () => {
 
         {/* Main Heading */}
         <div className="text-center mb-8">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight font-gilda">
+          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4 leading-tight font-raleway">
             The Best Resort in Sundarban <br />
             <span className="text-amber-600">
               Take a Look at the Surroundings
