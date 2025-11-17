@@ -22,12 +22,12 @@ const Treat = () => {
         <p className="font-open-sans text-sm md:text-base text-black mb-3 md:mb-4">
           Amantran Resort, a distinguished name in India's hospitality sector,
           offers a blend of opulence and comfort tailored to meet the diverse
-          needs of global travelers. With over 46 years of experience, our
-          commitment to excellence is evident in every aspect of our service.
-          Guests can indulge in a variety of world-class amenities, including a
-          serene swimming pool, gourmet dining options, and elegantly designed
-          rooms equipped with modern facilities like air conditioning,
-          flat-screen TVs, and complimentary Wi-Fi.Vist our{" "}
+          needs of global travelers.Our commitment to excellence is evident in
+          every aspect of our service. Guests can indulge in a variety of
+          world-class amenities, including a serene swimming pool, gourmet
+          dining options, and elegantly designed rooms equipped with modern
+          facilities like air conditioning, flat-screen TVs, and complimentary
+          Wi-Fi.Vist our{" "}
           <a
             href="https://www.amantranresorts.in/properties/sundarban"
             className="font-bold"

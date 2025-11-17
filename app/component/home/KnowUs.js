@@ -11,7 +11,7 @@ const KnowUs = () => {
   ];
 
   const stats = [
-    { number: "46+", label: "Years Experience", icon: <FaAward className="text-amber-600" /> },
+    // { number: "46+", label: "Years Experience", icon: <FaAward className="text-amber-600" /> },
     { number: "5★", label: "Luxury Rating", icon: <FaStar className="text-amber-600" /> },
     { number: "98%", label: "Guest Satisfaction", icon: <FaHeart className="text-amber-600" /> },
   ];
@@ -66,7 +66,7 @@ const KnowUs = () => {
               {/* Experience badge */}
               <div className="absolute -top-4 -left-4 bg-amber-600 text-white px-6 py-3 rounded-2xl shadow-xl transform -rotate-6">
                 <div className="text-center">
-                  <div className="font-bold text-lg">46+ Years</div>
+                  {/* <div className="font-bold text-lg">46+ Years</div> */}
                   <div className="text-xs opacity-90">Of Excellence</div>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const KnowUs = () => {
                 <p className="text-gray-700 leading-relaxed text-lg font-open-sans">
                   <span className="font-semibold text-amber-700">Amantran Resort</span> exemplifies 
                   the pinnacle of hospitality, offering guests a harmonious blend of comfort and 
-                  cultural richness. With over 46 years of experience, we are dedicated to 
+                  cultural richness.We are dedicated to 
                   providing unforgettable stays that make every guest feel truly valued.
                 </p>
                 
