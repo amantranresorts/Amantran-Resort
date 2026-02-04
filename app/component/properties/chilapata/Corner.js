@@ -58,6 +58,34 @@ const practiceAreas = [
     title: "The Soul of the Forest, Styled for You",
     image: "/images/chilapata/sightseeing.jpg",
   },
+  {
+    title: "Whispers of the Wild, Wrapped in Comfort",
+    image: "/images/chilapata/drone1.JPG",
+  },
+  {
+    title: "A Symphony of Serenity and Style",
+    image: "/images/chilapata/drone2.JPG",
+  },
+  {
+    title: "Where Wilderness Meets Refined Living",
+    image: "/images/chilapata/drone3.JPG",
+  },
+  {
+    title: "Elegance Rooted in Nature’s Heart",
+    image: "/images/chilapata/drone4.JPG",
+  },
+  {
+    title: "Rustic Charms, Regal Comforts",
+    image: "/images/chilapata/drone5.JPG",
+  },
+  {
+    title: "Comfort That Breathes with the Forest",
+    image: "/images/chilapata/drone6.JPG",
+  },
+  {
+    title: "Sophistication Beneath the Canopy",
+    image: "/images/chilapata/drone7.JPG",
+  },
 ];
 
 const Practice = () => {
