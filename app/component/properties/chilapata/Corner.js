@@ -74,10 +74,10 @@ const practiceAreas = [
     title: "Elegance Rooted in Nature’s Heart",
     image: "/images/chilapata/drone4.JPG",
   },
-  {
-    title: "Rustic Charms, Regal Comforts",
-    image: "/images/chilapata/drone5.JPG",
-  },
+  // {
+  //   title: "Rustic Charms, Regal Comforts",
+  //   image: "/images/chilapata/drone5.JPG",
+  // },
   {
     title: "Comfort That Breathes with the Forest",
     image: "/images/chilapata/drone6.JPG",
