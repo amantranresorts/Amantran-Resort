@@ -119,7 +119,7 @@ const Discover = () => {
                 <h3 className="text-lg font-semibold font-raleway text-gray-800 mb-3">
                   Experience Chilapata
                 </h3>
-                <div className="relative w-full h-64 rounded-lg overflow-hidden shadow-lg">
+                <div className="relative lg:w-128 sm:w-full h-80 rounded-lg overflow-hidden shadow-lg">
                   <video
                     ref={videoRef}
                     className="w-full h-full object-cover"
