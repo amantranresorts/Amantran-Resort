@@ -1,7 +1,57 @@
-import React from "react";
+"use client";
+import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 
 const Discover = () => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const videoElement = videoRef.current;
+    if (!videoElement) return;
+
+    // Create Intersection Observer to detect when video is in view
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            // Video is in view - try to play
+            videoElement.play().catch((error) => {
+              console.log("Autoplay prevented:", error);
+              // Fallback: add play button overlay if autoplay is blocked
+              const playButton = document.createElement('div');
+              playButton.className = 'absolute inset-0 flex items-center justify-center cursor-pointer z-10';
+              playButton.innerHTML = `
+                <div class="bg-black/50 rounded-full p-4">
+                  <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"/>
+                  </svg>
+                </div>
+              `;
+              playButton.onclick = () => {
+                videoElement.play();
+                playButton.remove();
+              };
+              videoElement.parentElement.appendChild(playButton);
+            });
+          } else {
+            // Video is out of view - pause it
+            videoElement.pause();
+          }
+        });
+      },
+      {
+        threshold: 0.5, // Trigger when 50% of video is visible
+      }
+    );
+
+    observer.observe(videoElement);
+
+    // Cleanup
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
+
   return (
     <div className="py-8 bg-[#f8f5f0]">
       <div className="container mx-auto max-w-screen-xl px-4">
@@ -11,14 +61,14 @@ const Discover = () => {
             <div className="whitebox wow slideInUp tick tick_double mb-3 p-6 bg-white shadow-lg border border-gray-200 rounded">
               <div className="section_title mb-4">
                 <h3 className="text-base font-cinzel font-semibold uppercase text-[#d49c45]">
-                Embrace Nature's Serenity & Luxury
+                  Embrace Nature's Serenity & Luxury
                 </h3>
                 <h2 className="text-3xl sm:text-4xl font-raleway text-gray-800">
-                The Best Hotel In Chilapata
+                  The Best Hotel In Chilapata
                 </h2>
               </div>
               <p className="mb-4 font-open-sans text-gray-700 text-sm sm:text-base">
-              Nestled amidst the lush greenery of the Chilapata Forest, Amantran Resort, The Best Hotel InChilapata offers a harmonious blend of comfort and nature. Located just 11 miles from Alipurduar Junction, our resort provides an ideal retreat for those seeking peace and rejuvenation. Guests can indulge in our well-appointed rooms, savor delectable cuisine at our on-site restaurant, and explore the rich biodiversity of the surrounding forest. With amenities like free Wi-Fi, air conditioning, and room service, every stay promises relaxation and convenience. Experience the tranquility of nature without compromising on luxury at Amantran Resort Chilapata.You can also visit <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best Hotel in Sundarban</a>
+                Nestled amidst the lush greenery of the Chilapata Forest, Amantran Resort, The Best Hotel In Chilapata offers a harmonious blend of comfort and nature. Located just 11 miles from Alipurduar Junction, our resort provides an ideal retreat for those seeking peace and rejuvenation. Guests can indulge in our well-appointed rooms, savor delectable cuisine at our on-site restaurant, and explore the rich biodiversity of the surrounding forest. With amenities like free Wi-Fi, air conditioning, and room service, every stay promises relaxation and convenience. Experience the tranquility of nature without compromising on luxury at Amantran Resort Chilapata.You can also visit <a href="https://www.amantranresorts.in/properties/sundarban" className="font-bold">best Hotel in Sundarban</a>
               </p>
               <ul className="grid grid-cols-2 gap-2 font-open-sans text-xs sm:text-sm">
                 <li className="p-2 bg-[#f4efdf] border border-gray-300 rounded text-gray-700">
@@ -43,7 +93,7 @@ const Discover = () => {
             </div>
           </div>
 
-          {/* Right Side Images */}
+          {/* Right Side Images and Video */}
           <div className="w-full md:w-1/2 lg:w-1/4">
             <div className="sticky top-8 space-y-6">
               {/* Main Image Container with Secondary Image Overlay */}
@@ -63,6 +113,46 @@ const Discover = () => {
                   />
                 </div>
               </div>
+
+              {/* Video Section */}
+              <div className="mt-8">
+                <h3 className="text-lg font-semibold font-raleway text-gray-800 mb-3">
+                  Experience Chilapata
+                </h3>
+                <div className="relative w-full h-64 rounded-lg overflow-hidden shadow-lg">
+                  <video
+                    ref={videoRef}
+                    className="w-full h-full object-cover"
+                    playsInline
+                    muted // Muted helps with autoplay in most browsers
+                    loop
+                    preload="metadata"
+                    poster="/images/chilapata/chilapata-thumbnail.jpg" // Optional: add a poster image
+                  >
+                    <source
+                      src="/images/chilapata/about-chilapata.mp4"
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                  {/* Fallback play button (hidden by default) */}
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300">
+                    <button 
+                      onClick={() => videoRef.current?.play()}
+                      className="bg-black/50 rounded-full p-3 hover:bg-black/70 transition-colors"
+                      aria-label="Play video"
+                    >
+                      <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <p className="text-xs text-gray-600 mt-2 text-center">
+                  Hover for controls
+                </p>
+              </div>
+
               {/* Book Now Button */}
               <div className="mt-4 text-center md:text-left">
                 <a
