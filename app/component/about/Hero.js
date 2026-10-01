@@ -6,7 +6,7 @@ const facilitiesList = [
   {
     title: "Air Conditioning",
     image:
-      "https://www.hotelsonarbangla.com/wp-content/uploads/2024/03/Air-Conditioner.webp",
+      "https://www.hotelsonarbangla.clscom/wp-content/uploads/2024/03/Air-Conditioner.webp",
   },
   {
     title: "Restaurant",
