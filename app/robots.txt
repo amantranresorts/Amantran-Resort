@@ -1,4 +1,0 @@
-User-agent: *
-allow: 
-sitemap: https://www.amantranresorts.in/sitemap.xml
-
