@@ -1,9 +1,22 @@
-<<<<<<< HEAD
-=======
+import Image from "next/image";
+import Hero from "./component/home/Hero";
+import KnowUs from "./component/home/KnowUs";
+import Accommodations from "./component/home/Accommodations";
+import Treat from "./component/home/Treat";
+import Features from "./component/home/Features";
+import Event from "./component/home/Event";
+import Upcoming from "./component/home/Upcoming";
+
 export default function Home() {
   return (
-    <main className="min-h-screen">
-    </main>
+    <>
+    <Hero />
+    <KnowUs />
+    <Accommodations />
+    <Treat />
+    <Event />
+    <Features />
+    <Upcoming />
+    </>
   );
 }
->>>>>>> c2d4da9d81ea8039c8a6d53d6e11bf8326e387f6
